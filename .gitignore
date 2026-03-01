@@ -1,0 +1,16 @@
+*.log
+node_modules/
+dist/
+build/
+.DS_Store
+.env.local
+.env.*.local
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.vscode/
+.idea/
+coverage/
+missing_kanji.txt
