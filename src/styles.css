@@ -1,0 +1,824 @@
+/* ═══════════════════════════════════════════════════
+   Kanji Puzzle Game — Japanese Minimalist Theme
+   Palette: ink (charcoal) + paper (warm white)
+   Typography: Noto Sans JP / Noto Serif JP
+   ═══════════════════════════════════════════════════ */
+
+/* ─── CSS Variables ─────────────────────────────── */
+:root {
+  /* Colors — ink & paper */
+  --color-ink: #1a1a2e;
+  --color-ink-light: #3d3d5c;
+  --color-ink-faint: #6b6b8a;
+  --color-paper: #f5f0e8;
+  --color-paper-warm: #ebe5d6;
+  --color-paper-dark: #d4cec0;
+
+  /* Accents */
+  --color-red: #c0392b;
+  --color-red-light: #e74c3c;
+  --color-green: #27ae60;
+  --color-green-light: #2ecc71;
+  --color-blue: #2980b9;
+  --color-blue-light: #3498db;
+  --color-gold: #c8a84e;
+
+  /* Slot states */
+  --color-slot-empty: var(--color-paper-warm);
+  --color-slot-filled: #e8e0d0;
+  --color-slot-active: #d4c5a9;
+  --color-slot-correct: #c8e6c9;
+  --color-slot-incorrect: #ffcdd2;
+
+  /* Typography */
+  --font-sans: 'Noto Sans JP', 'Hiragino Sans', sans-serif;
+  --font-serif: 'Noto Serif JP', 'Hiragino Mincho Pro', serif;
+
+  /* Spacing */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+
+  /* Borders */
+  --border-radius: 4px;
+  --border-radius-lg: 8px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+  /* Focus */
+  --focus-ring: 0 0 0 3px var(--color-blue-light);
+}
+
+/* ─── Reset / Base ──────────────────────────────── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.6;
+}
+
+#app {
+  width: 100%;
+  max-width: 600px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: var(--space-md);
+}
+
+/* ─── Focus visible ─────────────────────────────── */
+:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+}
+
+/* ─── Buttons ───────────────────────────────────── */
+.btn {
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  font-weight: 500;
+  padding: var(--space-sm) var(--space-lg);
+  border: 2px solid var(--color-ink);
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  min-height: 44px;
+  min-width: 44px;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-sm);
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+
+.btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.btn--primary {
+  background-color: var(--color-ink);
+  color: var(--color-paper);
+}
+
+.btn--primary:hover:not(:disabled) {
+  background-color: var(--color-ink-light);
+}
+
+.btn--secondary {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+}
+
+.btn--secondary:hover:not(:disabled) {
+  background-color: var(--color-paper-warm);
+}
+
+/* ─── Boot Screen ───────────────────────────────── */
+.screen--boot {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boot-wrapper {
+  text-align: center;
+}
+
+.boot-title {
+  font-family: var(--font-serif);
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--color-ink);
+  margin-bottom: var(--space-sm);
+  letter-spacing: 0.05em;
+}
+
+.boot-subtitle {
+  font-size: 1rem;
+  color: var(--color-ink-faint);
+  margin-bottom: var(--space-xl);
+}
+
+.boot-deco {
+  font-family: var(--font-serif);
+  font-size: 5rem;
+  color: var(--color-ink-faint);
+  opacity: 0.15;
+  margin-bottom: var(--space-xl);
+  user-select: none;
+  line-height: 1;
+}
+
+.boot-start-btn {
+  font-size: 1.25rem;
+  padding: var(--space-md) var(--space-2xl);
+}
+
+/* ─── Loading ───────────────────────────────────── */
+.screen--loading {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-lg);
+}
+
+.loading-spinner {
+  width: 48px;
+  height: 48px;
+  border: 3px solid var(--color-paper-dark);
+  border-top-color: var(--color-ink);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.loading-text {
+  color: var(--color-ink-faint);
+  font-size: 0.9rem;
+}
+
+/* ─── Game Screen ───────────────────────────────── */
+.screen--game {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+/* Score bar */
+.game-score {
+  text-align: right;
+  font-size: 0.85rem;
+  color: var(--color-ink-faint);
+  padding: var(--space-xs) 0;
+  border-bottom: 1px solid var(--color-paper-dark);
+}
+
+/* Hint */
+.game-hint {
+  text-align: center;
+  padding: var(--space-md);
+  background: var(--color-paper-warm);
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.game-hint__word {
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-ink);
+  letter-spacing: 0.05em;
+}
+
+.game-hint__hidden-kanji {
+  color: var(--color-blue);
+  background: var(--color-paper-dark);
+  border-radius: var(--border-radius);
+  padding: 0 0.15em;
+  font-size: 0.85em;
+}
+
+/* Revealed kanji after checking — highlight the answer */
+.game-hint__revealed-kanji {
+  color: var(--color-green);
+  background: var(--color-slot-correct);
+  border-radius: var(--border-radius);
+  padding: 0 0.15em;
+  font-size: 1em;
+  font-weight: 700;
+  transition: color 0.3s ease, background 0.3s ease;
+}
+
+.game-hint__reading {
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  color: var(--color-ink-faint);
+}
+
+.game-hint__meaning {
+  font-size: 0.9rem;
+  color: var(--color-ink-faint);
+  margin-top: var(--space-xs);
+}
+
+.game-hint__target {
+  margin-top: var(--space-sm);
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-ink);
+}
+
+/* ─── Kanvas ────────────────────────────────────── */
+.kanvas-container {
+  display: flex;
+  justify-content: center;
+  padding: var(--space-md) 0;
+}
+
+.kanvas {
+  position: relative;
+  width: min(300px, 80vw);
+  aspect-ratio: 1 / 1;
+  background: var(--color-paper-warm);
+  border: 2px solid var(--color-ink);
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-md);
+}
+
+/* Slots */
+.kanvas-slot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed var(--color-ink-faint);
+  border-radius: var(--border-radius);
+  transition: all 0.2s ease;
+  overflow: hidden;
+}
+
+.kanvas-slot--empty {
+  background: var(--color-slot-empty);
+}
+
+.kanvas-slot--active {
+  border-color: var(--color-blue);
+  border-style: solid;
+  background: var(--color-slot-active);
+  box-shadow: inset 0 0 0 2px rgba(41, 128, 185, 0.15);
+}
+
+.kanvas-slot--filled {
+  background: var(--color-slot-filled);
+  border-style: solid;
+  border-color: var(--color-ink-faint);
+}
+
+.kanvas-slot--correct {
+  background: var(--color-slot-correct);
+  border-color: var(--color-green);
+  border-style: solid;
+}
+
+.kanvas-slot--incorrect {
+  background: var(--color-slot-incorrect);
+  border-color: var(--color-red);
+  border-style: solid;
+}
+
+.kanvas-slot__badge {
+  position: absolute;
+  top: 2px;
+  left: 4px;
+  font-size: 0.65rem;
+  color: var(--color-ink-faint);
+  font-weight: 500;
+}
+
+.kanvas-slot__char {
+  font-family: var(--font-serif);
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--color-ink);
+  line-height: 1;
+}
+
+.kanvas-slot__correction {
+  position: absolute;
+  bottom: 2px;
+  right: 4px;
+  font-family: var(--font-serif);
+  font-size: 0.9rem;
+  color: var(--color-red);
+  font-weight: 700;
+}
+
+/* ─── Enclosure layouts (⿴ ⿸ ⿺) ──────────────── */
+/* Outer slot: character renders LARGE as a background glyph */
+.kanvas-slot--outer {
+  border-style: solid;
+  border-color: var(--color-ink-faint);
+  border-width: 1px;
+  background: transparent;
+}
+
+.kanvas-slot--outer .kanvas-slot__char {
+  font-size: 5rem;
+  opacity: 0.8;
+  color: var(--color-ink);
+  line-height: 1;
+  pointer-events: none;
+}
+
+/* ⿴ full enclosure (門→間, 囗→国): char centered */
+.kanvas-slot--layout-enclosure .kanvas-slot__char {
+  /* keep centered (default flex alignment) */
+}
+
+/* ⿸ top-left wrap (广→店): char pushed to top-left */
+.kanvas-slot--layout-topleft {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.kanvas-slot--layout-topleft .kanvas-slot__char {
+  padding: 2px 0 0 2px;
+}
+
+/* ⿺ bottom-left wrap (辶→近): char pushed to bottom-left */
+.kanvas-slot--layout-bottomleft {
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.kanvas-slot--layout-bottomleft .kanvas-slot__char {
+  padding: 0 0 2px 2px;
+}
+
+/* Inner slot: sits on top of outer, smaller font, visually nested */
+.kanvas-slot--inner {
+  border-style: dashed;
+  border-width: 2px;
+  border-color: var(--color-blue);
+  background: rgba(245, 240, 232, 0.85);
+}
+
+.kanvas-slot--inner .kanvas-slot__char {
+  font-size: 2rem;
+}
+
+/* Active state overrides for inner slot */
+.kanvas-slot--inner.kanvas-slot--active {
+  background: rgba(212, 197, 169, 0.9);
+}
+
+/* Filled state overrides for outer — keep the large glyph style */
+.kanvas-slot--outer.kanvas-slot--filled .kanvas-slot__char {
+  font-size: 5rem;
+  opacity: 1;
+}
+
+/* Correct/incorrect overrides for outer */
+.kanvas-slot--outer.kanvas-slot--correct .kanvas-slot__char,
+.kanvas-slot--outer.kanvas-slot--incorrect .kanvas-slot__char {
+  font-size: 5rem;
+}
+
+/* ─── Options Panel ─────────────────────────────── */
+.options-container {
+  display: flex;
+  justify-content: center;
+}
+
+.options-panel {
+  text-align: center;
+  width: 100%;
+}
+
+.options-panel__label {
+  font-size: 0.85rem;
+  color: var(--color-ink-faint);
+  margin-bottom: var(--space-sm);
+}
+
+.options-panel__buttons {
+  display: flex;
+  gap: var(--space-sm);
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.option-btn {
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  font-weight: 700;
+  width: 72px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--color-ink);
+  border-radius: var(--border-radius);
+  background: var(--color-paper);
+  color: var(--color-ink);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  min-height: 44px;
+  min-width: 44px;
+}
+
+.option-btn:hover {
+  background: var(--color-paper-warm);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.option-btn:active {
+  transform: translateY(0);
+}
+
+.option-btn:focus-visible {
+  box-shadow: var(--focus-ring);
+}
+
+.options-panel__complete {
+  font-size: 0.9rem;
+  color: var(--color-ink-faint);
+  font-style: italic;
+  padding: var(--space-md);
+}
+
+/* ─── Game Actions ──────────────────────────────── */
+.game-actions {
+  display: flex;
+  gap: var(--space-md);
+  justify-content: center;
+  padding: var(--space-md) 0;
+}
+
+/* ─── Game Result ───────────────────────────────── */
+.game-result {
+  text-align: center;
+  padding: var(--space-md);
+  background: var(--color-paper-warm);
+  border-radius: var(--border-radius-lg);
+}
+
+.game-result__score {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--color-ink);
+}
+
+.game-result__perfect {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-green);
+  margin-top: var(--space-sm);
+}
+
+.game-result__missed {
+  font-size: 0.9rem;
+  color: var(--color-red);
+  margin-top: var(--space-sm);
+}
+
+/* ─── CMP Banner ────────────────────────────────── */
+.cmp-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: var(--color-ink);
+  color: var(--color-paper);
+  padding: var(--space-lg);
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.cmp-banner__content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.cmp-banner__text {
+  font-size: 0.9rem;
+  margin-bottom: var(--space-md);
+  line-height: 1.5;
+}
+
+.cmp-banner__buttons {
+  display: flex;
+  gap: var(--space-sm);
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* CMP buttons — SAME size and color base for Accept and Reject (no dark patterns) */
+.cmp-btn {
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  font-weight: 500;
+  padding: var(--space-sm) var(--space-lg);
+  border: 2px solid var(--color-paper);
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  min-height: 44px;
+  min-width: 120px;
+  text-align: center;
+}
+
+.cmp-btn--accept {
+  background: var(--color-paper);
+  color: var(--color-ink);
+}
+
+.cmp-btn--reject {
+  background: var(--color-paper);
+  color: var(--color-ink);
+}
+
+.cmp-btn--configure {
+  background: transparent;
+  color: var(--color-paper);
+  border-style: dashed;
+}
+
+.cmp-btn:hover {
+  opacity: 0.85;
+  transform: translateY(-1px);
+}
+
+.cmp-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+/* CMP Config Panel */
+.cmp-config {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.cmp-config h3 {
+  font-size: 1.1rem;
+  margin-bottom: var(--space-md);
+}
+
+.cmp-config__row {
+  padding: var(--space-sm) 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.cmp-config__label {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.cmp-config__label input {
+  width: 18px;
+  height: 18px;
+}
+
+.cmp-config__desc {
+  font-size: 0.8rem;
+  opacity: 0.7;
+  margin-top: var(--space-xs);
+  padding-left: calc(18px + var(--space-sm));
+}
+
+/* ─── Privacy Modal ─────────────────────────────── */
+.privacy-modal {
+  flex: 1;
+  padding: var(--space-lg) 0;
+}
+
+.privacy-modal__content {
+  background: var(--color-paper-warm);
+  border-radius: var(--border-radius-lg);
+  padding: var(--space-xl);
+  box-shadow: var(--shadow-md);
+}
+
+.privacy-modal__content h2 {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  margin-bottom: var(--space-md);
+}
+
+.privacy-modal__content h3 {
+  font-size: 1.1rem;
+  margin-top: var(--space-lg);
+  margin-bottom: var(--space-sm);
+}
+
+.privacy-modal__content p {
+  margin-bottom: var(--space-sm);
+  line-height: 1.6;
+}
+
+.privacy-modal__content ul {
+  padding-left: var(--space-lg);
+  margin-bottom: var(--space-md);
+}
+
+.privacy-modal__content li {
+  margin-bottom: var(--space-xs);
+}
+
+.privacy-modal__confirmed {
+  color: var(--color-green);
+  font-weight: 700;
+  margin-top: var(--space-md);
+}
+
+.privacy-modal__back {
+  display: inline-block;
+  margin-top: var(--space-lg);
+  color: var(--color-blue);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.privacy-modal__back:hover {
+  text-decoration: underline;
+}
+
+/* ─── Results Screen ────────────────────────────── */
+.screen--results {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: var(--space-xl);
+}
+
+.results-wrapper {
+  width: 100%;
+  background: var(--color-paper-warm);
+  border-radius: var(--border-radius-lg);
+  padding: var(--space-xl);
+}
+
+.results-wrapper h2 {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  margin-bottom: var(--space-lg);
+  text-align: center;
+}
+
+.results-stat {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--space-sm) 0;
+  border-bottom: 1px solid var(--color-paper-dark);
+}
+
+.results-stat__label {
+  color: var(--color-ink-faint);
+}
+
+.results-stat__value {
+  font-weight: 700;
+  color: var(--color-ink);
+}
+
+.results-wrapper h3 {
+  margin-top: var(--space-lg);
+  margin-bottom: var(--space-sm);
+  font-size: 1rem;
+}
+
+.results-errors {
+  padding-left: var(--space-lg);
+}
+
+.results-errors li {
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  padding: var(--space-xs) 0;
+}
+
+/* ─── Error Message ─────────────────────────────── */
+.error-message {
+  background: var(--color-slot-incorrect);
+  color: var(--color-red);
+  padding: var(--space-md);
+  border-radius: var(--border-radius);
+  margin: var(--space-md) 0;
+  font-weight: 500;
+}
+
+/* ─── Footer ────────────────────────────────────── */
+.app-footer {
+  padding: var(--space-lg) 0;
+  text-align: center;
+  margin-top: auto;
+}
+
+.footer-link {
+  color: var(--color-ink-faint);
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+.footer-link:hover {
+  color: var(--color-ink);
+  text-decoration: underline;
+}
+
+/* ─── Responsive ────────────────────────────────── */
+@media (max-width: 480px) {
+  .boot-title {
+    font-size: 2rem;
+  }
+
+  .boot-deco {
+    font-size: 3.5rem;
+  }
+
+  .kanvas {
+    width: min(260px, 75vw);
+  }
+
+  .option-btn {
+    width: 60px;
+    height: 60px;
+    font-size: 1.6rem;
+  }
+
+  .kanvas-slot__char {
+    font-size: 1.8rem;
+  }
+
+  .kanvas-slot--outer .kanvas-slot__char,
+  .kanvas-slot--outer.kanvas-slot--filled .kanvas-slot__char,
+  .kanvas-slot--outer.kanvas-slot--correct .kanvas-slot__char,
+  .kanvas-slot--outer.kanvas-slot--incorrect .kanvas-slot__char {
+    font-size: 3.8rem;
+  }
+
+  .kanvas-slot--inner .kanvas-slot__char {
+    font-size: 1.5rem;
+  }
+}

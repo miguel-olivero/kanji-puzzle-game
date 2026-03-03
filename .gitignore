@@ -1,16 +1,38 @@
-*.log
+# ─── Dependencias ────────────────────────────────
 node_modules/
+
+# ─── Build output ────────────────────────────────
 dist/
 build/
+
+# ─── Datos fuente (PDFs del libro, TXTs) ────────
+data/
+
+# ─── JSON generados por parse-kanjis.ts ──────────
+public/data/
+
+# ─── Artefactos del script ───────────────────────
+missing_kanji.txt
+
+# ─── Logs ────────────────────────────────────────
+*.log
+npm-debug.log*
+
+# ─── OS / Editor ─────────────────────────────────
 .DS_Store
-.env.local
-.env.*.local
+Thumbs.db
+.vscode/
+.idea/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
-.vscode/
-.idea/
+
+# ─── Env ─────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ─── Test coverage ───────────────────────────────
 coverage/
-missing_kanji.txt
