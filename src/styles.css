@@ -466,21 +466,41 @@ body {
 
 .option-btn {
   font-family: var(--font-serif);
-  font-size: 2rem;
-  font-weight: 700;
-  width: 72px;
-  height: 72px;
+  width: 80px;
+  min-height: 80px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 2px;
+  padding: var(--space-xs);
   border: 2px solid var(--color-ink);
   border-radius: var(--border-radius);
   background: var(--color-paper);
   color: var(--color-ink);
   cursor: pointer;
   transition: all 0.15s ease;
-  min-height: 44px;
   min-width: 44px;
+}
+
+.option-btn__char {
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.option-btn__label {
+  font-family: var(--font-sans);
+  font-size: 0.55rem;
+  font-weight: 400;
+  color: var(--color-ink-faint);
+  line-height: 1.2;
+  text-align: center;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .option-btn:hover {
@@ -802,9 +822,16 @@ body {
   }
 
   .option-btn {
-    width: 60px;
-    height: 60px;
+    width: 66px;
+    min-height: 66px;
+  }
+
+  .option-btn__char {
     font-size: 1.6rem;
+  }
+
+  .option-btn__label {
+    font-size: 0.5rem;
   }
 
   .kanvas-slot__char {

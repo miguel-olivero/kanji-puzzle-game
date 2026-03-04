@@ -76,13 +76,9 @@ export async function loadGameData(): Promise<GameData> {
   // Merge manual decompositions
   const mergedDecomps: DecompMap = { ...decompositions, ...manualDecomps };
 
-  // Filter words: only keep words where ALL kanji have a decomposition
-  // with more than one component (single-component kanji are trivial)
+  // Filter words: keep words where ALL kanji have a decomposition entry
   const filteredWords = words.filter((word) =>
-    word.kanji.every((k) => {
-      const d = mergedDecomps[k];
-      return d !== undefined;
-    }),
+    word.kanji.every((k) => mergedDecomps[k] !== undefined),
   );
 
   return {

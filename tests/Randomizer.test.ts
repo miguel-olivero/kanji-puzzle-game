@@ -131,12 +131,16 @@ describe('Randomizer', () => {
       },
     };
 
-    it('should prefer multi-component kanji', () => {
+    it('should pick any kanji with a decomposition (including single)', () => {
+      let pickedSingle = false;
       let pickedMulti = false;
-      for (let i = 0; i < 50; i++) {
+      for (let i = 0; i < 100; i++) {
         const result = pickTargetKanji(['休', '人'], decompositions);
+        if (result === '人') pickedSingle = true;
         if (result === '休') pickedMulti = true;
       }
+      // Both should be pickable
+      expect(pickedSingle).toBe(true);
       expect(pickedMulti).toBe(true);
     });
 

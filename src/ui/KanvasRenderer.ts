@@ -64,7 +64,7 @@ export class KanvasRenderer {
         slot.style.zIndex = isOuter ? '1' : '2';
       }
 
-      slot.setAttribute('aria-label', `Slot ${comp.order_index + 1}: ${comp.slot_id}`);
+      slot.setAttribute('aria-label', `Elemento ${comp.order_index + 1}: ${comp.label ?? comp.slot_id}`);
       slot.setAttribute('role', 'status');
 
       // Order number badge
@@ -102,7 +102,7 @@ export class KanvasRenderer {
       charEl.textContent = char;
     }
 
-    slot.setAttribute('aria-label', `Slot filled with ${char}`);
+    slot.setAttribute('aria-label', `Elemento seleccionado: ${char}`);
   }
 
   /**
@@ -125,8 +125,8 @@ export class KanvasRenderer {
       slot.appendChild(correction);
     }
 
-    const status = isCorrect ? 'correct' : `incorrect (expected ${expectedChar})`;
-    slot.setAttribute('aria-label', `Slot ${status}`);
+    const status = isCorrect ? 'correcto' : `incorrecto (esperado: ${expectedChar})`;
+    slot.setAttribute('aria-label', `Elemento ${status}`);
   }
 
   /**

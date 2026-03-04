@@ -75,18 +75,15 @@ export function pickRandomWord<T extends { id: string }>(
 }
 
 /**
- * Pick a random kanji from a word that has a multi-component decomposition.
- * Prefers kanji with 2+ components for a more interesting puzzle.
+ * Pick a random kanji from a word that has a decomposition.
+ * Any kanji (single-component or multi-component) can be a target.
  */
 export function pickTargetKanji(
   kanjiChars: readonly string[],
   decompositions: Record<string, { components: readonly { char: string }[] }>,
 ): string | null {
-  // Prefer multi-component kanji
-  const multiComp = kanjiChars.filter(
-    (k) => decompositions[k] && decompositions[k].components.length > 1,
-  );
-  const pool = multiComp.length > 0 ? multiComp : [...kanjiChars];
+  // Any kanji with a decomposition is a valid target
+  const pool = kanjiChars.filter((k) => decompositions[k] !== undefined);
 
   if (pool.length === 0) return null;
 

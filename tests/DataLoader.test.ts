@@ -8,15 +8,15 @@ describe('DataLoader', () => {
       const decomps: DecompMap = {
         '休': {
           components: [
-            { id: 'c1', char: '亻', slot_id: 'left', order_index: 0, bounds: { x: 0, y: 0, w: 0.4, h: 1 } },
-            { id: 'c2', char: '木', slot_id: 'right', order_index: 1, bounds: { x: 0.4, y: 0, w: 0.6, h: 1 } },
+            { id: 'c1', char: '亻', label: 'persona', label_en: 'person', slot_id: 'left', order_index: 0, bounds: { x: 0, y: 0, w: 0.4, h: 1 } },
+            { id: 'c2', char: '木', label: 'árbol', label_en: 'tree', slot_id: 'right', order_index: 1, bounds: { x: 0.4, y: 0, w: 0.6, h: 1 } },
           ],
           layout: '⿰',
         },
         '明': {
           components: [
-            { id: 'c3', char: '日', slot_id: 'left', order_index: 0, bounds: { x: 0, y: 0, w: 0.45, h: 1 } },
-            { id: 'c4', char: '月', slot_id: 'right', order_index: 1, bounds: { x: 0.45, y: 0, w: 0.55, h: 1 } },
+            { id: 'c3', char: '日', label: 'sol', label_en: 'sun', slot_id: 'left', order_index: 0, bounds: { x: 0, y: 0, w: 0.45, h: 1 } },
+            { id: 'c4', char: '月', label: 'luna', label_en: 'moon', slot_id: 'right', order_index: 1, bounds: { x: 0.45, y: 0, w: 0.55, h: 1 } },
           ],
           layout: '⿰',
         },
@@ -34,8 +34,8 @@ describe('DataLoader', () => {
       const decomps: DecompMap = {
         '林': {
           components: [
-            { id: 'c1', char: '木', slot_id: 'left', order_index: 0, bounds: { x: 0, y: 0, w: 0.5, h: 1 } },
-            { id: 'c2', char: '木', slot_id: 'right', order_index: 1, bounds: { x: 0.5, y: 0, w: 0.5, h: 1 } },
+            { id: 'c1', char: '木', label: 'árbol', label_en: 'tree', slot_id: 'left', order_index: 0, bounds: { x: 0, y: 0, w: 0.5, h: 1 } },
+            { id: 'c2', char: '木', label: 'árbol', label_en: 'tree', slot_id: 'right', order_index: 1, bounds: { x: 0.5, y: 0, w: 0.5, h: 1 } },
           ],
           layout: '⿰',
         },
@@ -60,9 +60,9 @@ describe('DataLoader', () => {
       expect(() => {
         registerManualDecomp('新', {
           components: [
-            { id: 'mc1', char: '立', slot_id: 'top-left', order_index: 0, bounds: { x: 0, y: 0, w: 0.4, h: 0.5 } },
-            { id: 'mc2', char: '木', slot_id: 'bottom-left', order_index: 1, bounds: { x: 0, y: 0.5, w: 0.4, h: 0.5 } },
-            { id: 'mc3', char: '斤', slot_id: 'right', order_index: 2, bounds: { x: 0.4, y: 0, w: 0.6, h: 1 } },
+            { id: 'mc1', char: '立', label: 'estar de pie', label_en: 'stand', slot_id: 'top-left', order_index: 0, bounds: { x: 0, y: 0, w: 0.4, h: 0.5 } },
+            { id: 'mc2', char: '木', label: 'árbol', label_en: 'tree', slot_id: 'bottom-left', order_index: 1, bounds: { x: 0, y: 0.5, w: 0.4, h: 0.5 } },
+            { id: 'mc3', char: '斤', label: 'hacha', label_en: 'axe', slot_id: 'right', order_index: 2, bounds: { x: 0.4, y: 0, w: 0.6, h: 1 } },
           ],
           layout: '⿰',
         });

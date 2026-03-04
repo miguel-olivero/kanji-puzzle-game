@@ -1,4 +1,5 @@
 import type { Word, KanjiDecomposition, Round } from '../../domain';
+import type { OptionItem } from '../../controllers/GameController';
 import type { RoundResult } from '../../services/Scoring';
 import { getGlobalAccuracy } from '../../services/Scoring';
 import { KanvasRenderer } from '../KanvasRenderer';
@@ -124,7 +125,7 @@ export class GameScreen {
     word: Word,
     targetKanji: string,
     decomposition: KanjiDecomposition,
-    options: string[],
+    options: OptionItem[],
     round: Round,
   ): void {
     if (!this.kanvas || !this.options || !this.hintEl) return;
@@ -166,7 +167,7 @@ export class GameScreen {
     const targetKana = word.readingParts?.[targetIdx] ?? '？';
     const hintTarget = document.createElement('div');
     hintTarget.classList.add('game-hint__target');
-    hintTarget.textContent = `Build: ${targetKana}`;
+    hintTarget.textContent = `Construye: ${targetKana}`;
     this.hintEl.appendChild(hintTarget);
 
     // Render kanvas slots
@@ -200,7 +201,7 @@ export class GameScreen {
     componentId: string,
     char: string,
     round: Round,
-    nextOptions: string[] | null,
+    nextOptions: OptionItem[] | null,
   ): void {
     if (!this.kanvas || !this.options) return;
 
@@ -240,7 +241,7 @@ export class GameScreen {
       // Also update the "Build:" line to show the kanji
       const targetEl = this.hintEl.querySelector('.game-hint__target');
       if (targetEl) {
-        targetEl.textContent = `Build: ${round.targetKanji}`;
+        targetEl.textContent = `Construye: ${round.targetKanji}`;
       }
     }
 

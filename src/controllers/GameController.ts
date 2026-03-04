@@ -1,17 +1,23 @@
-import type { GamePhase, SlotState, Round, Word, KanjiDecomposition } from '../domain';
+import type { GamePhase, SlotState, Round, Word, KanjiDecomposition, Component } from '../domain';
 import { VALID_TRANSITIONS } from '../domain';
-import type { GameData } from '../services/DataLoader';
+import type { GameData, DecompMap } from '../services/DataLoader';
 import { loadGameData, getAllComponentChars } from '../services/DataLoader';
 import { generateOptions, pickRandomWord, pickTargetKanji } from '../services/Randomizer';
 import { evaluateRound, recordRoundResult } from '../services/Scoring';
 import type { RoundResult } from '../services/Scoring';
 import { markWordSeen, markWordCompleted } from '../services/Storage';
 
+/** An option button: the component char + its pedagogical label */
+export interface OptionItem {
+  readonly char: string;
+  readonly label: string;
+}
+
 /** Events emitted by the game controller */
 export type GameEvent =
   | { type: 'PHASE_CHANGED'; phase: GamePhase }
-  | { type: 'ROUND_STARTED'; round: Round; word: Word; decomposition: KanjiDecomposition; options: string[] }
-  | { type: 'SLOT_FILLED'; slotIndex: number; char: string; round: Round; nextOptions: string[] | null }
+  | { type: 'ROUND_STARTED'; round: Round; word: Word; decomposition: KanjiDecomposition; options: OptionItem[] }
+  | { type: 'SLOT_FILLED'; slotIndex: number; char: string; round: Round; nextOptions: OptionItem[] | null }
   | { type: 'ROUND_CHECKED'; round: Round; result: RoundResult }
   | { type: 'DATA_LOADED'; wordCount: number }
   | { type: 'ERROR'; message: string };
@@ -28,6 +34,8 @@ export class GameController {
   private currentRound: Round | null = null;
   private currentWord: Word | null = null;
   private allComponentChars: string[] = [];
+  /** Map from component char → label (es) for building OptionItems */
+  private componentLabelMap: Record<string, string> = {};
   private listeners: GameEventListener[] = [];
   private recentWordIds: string[] = [];
 
@@ -85,6 +93,7 @@ export class GameController {
     try {
       this.data = await loadGameData();
       this.allComponentChars = getAllComponentChars(this.data.decompositions);
+      this.componentLabelMap = buildComponentLabelMap(this.data.decompositions);
       this.emit({ type: 'DATA_LOADED', wordCount: this.data.words.length });
       this.transition('READY');
     } catch (err) {
@@ -189,7 +198,7 @@ export class GameController {
     };
 
     // Generate options for next slot (or null if all filled)
-    let nextOptions: string[] | null = null;
+    let nextOptions: OptionItem[] | null = null;
     if (nextSlotIndex < newSlots.length) {
       nextOptions = this.getOptionsForCurrentSlot();
     }
@@ -267,19 +276,36 @@ export class GameController {
   }
 
   /**
-   * Get options for the current slot.
+   * Get options for the current slot as OptionItems (char + label).
    */
-  private getOptionsForCurrentSlot(): string[] {
+  private getOptionsForCurrentSlot(): OptionItem[] {
     if (!this.currentRound || !this.data) return [];
 
     const slotIdx = this.currentRound.currentSlotIndex;
     if (slotIdx >= this.currentRound.slots.length) return [];
 
     const slot = this.currentRound.slots[slotIdx];
-    return generateOptions(
+    const chars = generateOptions(
       slot.expectedChar,
       this.allComponentChars,
       this.data.confusables,
     );
+    return chars.map((c) => ({
+      char: c,
+      label: this.componentLabelMap[c] ?? c,
+    }));
   }
+}
+
+/** Build a map from component char → label by walking all decompositions */
+function buildComponentLabelMap(decomps: DecompMap): Record<string, string> {
+  const map: Record<string, string> = {};
+  for (const kanji of Object.values(decomps)) {
+    for (const comp of kanji.components) {
+      if (!map[comp.char] && comp.label) {
+        map[comp.char] = comp.label;
+      }
+    }
+  }
+  return map;
 }

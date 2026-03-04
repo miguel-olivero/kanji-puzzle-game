@@ -1,5 +1,8 @@
+import type { OptionItem } from '../controllers/GameController';
+
 /**
- * OptionsRenderer: renders option buttons for slot selection.
+ * OptionsRenderer: renders option buttons for element selection.
+ * Each button shows the component character + its pedagogical label.
  * Pure buttons — NO drag&drop.
  */
 export class OptionsRenderer {
@@ -10,7 +13,7 @@ export class OptionsRenderer {
     this.container = container;
     this.container.classList.add('options-panel');
     this.container.setAttribute('role', 'group');
-    this.container.setAttribute('aria-label', 'Component options');
+    this.container.setAttribute('aria-label', 'Opciones de elemento');
   }
 
   /**
@@ -22,17 +25,18 @@ export class OptionsRenderer {
 
   /**
    * Render option buttons for the current slot.
+   * Each option shows the component char (large) and its label (small).
    */
-  renderOptions(options: string[], slotIndex: number): void {
+  renderOptions(options: OptionItem[], slotIndex: number): void {
     this.clear();
     this.container.setAttribute(
       'aria-label',
-      `Choose component for slot ${slotIndex + 1}`,
+      `Elige el elemento #${slotIndex + 1}`,
     );
 
     const label = document.createElement('p');
     label.classList.add('options-panel__label');
-    label.textContent = `Select component #${slotIndex + 1}:`;
+    label.textContent = `Elige el elemento #${slotIndex + 1}:`;
     this.container.appendChild(label);
 
     const btnGroup = document.createElement('div');
@@ -40,18 +44,30 @@ export class OptionsRenderer {
     btnGroup.setAttribute('role', 'radiogroup');
 
     for (let i = 0; i < options.length; i++) {
-      const char = options[i];
+      const opt = options[i];
       const btn = document.createElement('button');
       btn.type = 'button';
       btn.classList.add('option-btn');
-      btn.textContent = char;
-      btn.setAttribute('aria-label', `Component option: ${char}`);
+
+      // Character (large)
+      const charSpan = document.createElement('span');
+      charSpan.classList.add('option-btn__char');
+      charSpan.textContent = opt.char;
+      btn.appendChild(charSpan);
+
+      // Label (small, below)
+      const labelSpan = document.createElement('span');
+      labelSpan.classList.add('option-btn__label');
+      labelSpan.textContent = opt.label;
+      btn.appendChild(labelSpan);
+
+      btn.setAttribute('aria-label', `Elemento: ${opt.char} (${opt.label})`);
       btn.setAttribute('role', 'radio');
       btn.setAttribute('aria-checked', 'false');
       btn.tabIndex = i === 0 ? 0 : -1;
 
       btn.addEventListener('click', () => {
-        this.onSelect?.(char);
+        this.onSelect?.(opt.char);
       });
 
       // Keyboard navigation: arrow keys between options
@@ -70,7 +86,7 @@ export class OptionsRenderer {
           nextIdx = (currentIdx - 1 + buttons.length) % buttons.length;
         } else if (e.key === 'Enter' || e.key === ' ') {
           e.preventDefault();
-          this.onSelect?.(char);
+          this.onSelect?.(opt.char);
           return;
         }
 
@@ -100,7 +116,7 @@ export class OptionsRenderer {
     this.clear();
     const msg = document.createElement('p');
     msg.classList.add('options-panel__complete');
-    msg.textContent = 'All slots filled. Press "Check" to verify.';
+    msg.textContent = 'Todos los elementos puestos. Pulsa "Check".';
     this.container.appendChild(msg);
   }
 
