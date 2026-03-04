@@ -67,6 +67,10 @@ export function pickRandomWord<T extends { id: string }>(
   words: readonly T[],
   recentIds: readonly string[] = [],
 ): T {
+  if (words.length === 0) {
+    throw new Error('Cannot pick a random word from an empty list');
+  }
+
   // Try to avoid recently seen words
   const unseen = words.filter((w) => !recentIds.includes(w.id));
   const pool = unseen.length > 0 ? unseen : words;

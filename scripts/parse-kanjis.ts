@@ -1202,7 +1202,18 @@ function main(): void {
       }
     }
   }
-  console.log(`Parsed ${allKanjiSet.size} unique kanji from txt files`);
+
+  // CI fallback: if textbook files are unavailable, derive kanji set from built-in dictionary.
+  if (allKanjiSet.size === 0) {
+    console.warn('WARNING: No textbook TXT files found. Falling back to WORD_DICTIONARY kanji set.');
+    for (const def of Object.values(WORD_DICTIONARY)) {
+      for (const k of def.kanji) {
+        allKanjiSet.add(k);
+      }
+    }
+  }
+
+  console.log(`Parsed ${allKanjiSet.size} unique kanji for dataset build`);
 
   // ── 2. Build decompositions ────────────────────────
   const decompOut: Record<string, any> = {};

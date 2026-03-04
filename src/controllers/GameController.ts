@@ -111,6 +111,11 @@ export class GameController {
       return;
     }
 
+    if (this.data.words.length === 0) {
+      this.emit({ type: 'ERROR', message: 'No words available. Rebuild game data and try again.' });
+      return;
+    }
+
     this.transition('IN_ROUND');
 
     const word = pickRandomWord(this.data.words, this.recentWordIds);
