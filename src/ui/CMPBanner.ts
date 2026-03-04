@@ -1,4 +1,4 @@
-import { hasConsent, loadConsent, saveConsent, revokeConsent } from '../services/Storage';
+import { hasConsent, saveConsent, revokeConsent } from '../services/Storage';
 import { CONFIG } from '../config';
 
 /**
@@ -137,7 +137,7 @@ export class CMPBanner {
     saveBtn.classList.add('cmp-btn', 'cmp-btn--accept');
     saveBtn.textContent = 'Save Preferences';
     saveBtn.addEventListener('click', () => {
-      const categories = [CONFIG.CMP.CATEGORIES.ESSENTIAL];
+      const categories: string[] = [CONFIG.CMP.CATEGORIES.ESSENTIAL];
       if (analyticsChecked) {
         categories.push(CONFIG.CMP.CATEGORIES.ANALYTICS);
       }

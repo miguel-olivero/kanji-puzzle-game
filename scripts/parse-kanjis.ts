@@ -21,10 +21,14 @@ const ROOT = path.resolve(__dirname, '..');
 // ═══════════════════════════════════════════════════════════
 interface CatalogEntry { char: string; en: string; es: string }
 const CATALOG_PATH = path.join(ROOT, 'data', 'component_catalog.json');
-const catalogData = JSON.parse(fs.readFileSync(CATALOG_PATH, 'utf8')) as { components: CatalogEntry[] };
 const COMPONENT_LABELS: Record<string, { en: string; es: string }> = {};
-for (const entry of catalogData.components) {
-  COMPONENT_LABELS[entry.char] = { en: entry.en, es: entry.es };
+if (fs.existsSync(CATALOG_PATH)) {
+  const catalogData = JSON.parse(fs.readFileSync(CATALOG_PATH, 'utf8')) as { components: CatalogEntry[] };
+  for (const entry of catalogData.components) {
+    COMPONENT_LABELS[entry.char] = { en: entry.en, es: entry.es };
+  }
+} else {
+  console.warn(`WARNING: component catalog not found at ${CATALOG_PATH}. Falling back to character labels.`);
 }
 
 /** Get a component label (es), falling back to en, then to the char itself */

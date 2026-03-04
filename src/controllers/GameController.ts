@@ -1,4 +1,4 @@
-import type { GamePhase, SlotState, Round, Word, KanjiDecomposition, Component } from '../domain';
+import type { GamePhase, SlotState, Round, Word, KanjiDecomposition } from '../domain';
 import { VALID_TRANSITIONS } from '../domain';
 import type { GameData, DecompMap } from '../services/DataLoader';
 import { loadGameData, getAllComponentChars } from '../services/DataLoader';

@@ -1,4 +1,4 @@
-import type { Word, KanjiDecomposition, Kanji } from '../domain';
+import type { Word, KanjiDecomposition } from '../domain';
 import { CONFIG } from '../config';
 
 /** Shape of the decomposition JSON file */
