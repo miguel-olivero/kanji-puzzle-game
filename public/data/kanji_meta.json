@@ -1,0 +1,1394 @@
+{
+  "日": {
+    "reading": "ひ / にち",
+    "meaning": "sol, día"
+  },
+  "月": {
+    "reading": "つき / げつ",
+    "meaning": "luna, mes"
+  },
+  "木": {
+    "reading": "き / もく",
+    "meaning": "árbol"
+  },
+  "山": {
+    "reading": "やま / さん",
+    "meaning": "montaña"
+  },
+  "川": {
+    "reading": "かわ / せん",
+    "meaning": "río"
+  },
+  "田": {
+    "reading": "た / でん",
+    "meaning": "campo de arroz"
+  },
+  "人": {
+    "reading": "ひと / じん",
+    "meaning": "persona"
+  },
+  "口": {
+    "reading": "くち / こう",
+    "meaning": "boca"
+  },
+  "車": {
+    "reading": "くるま / しゃ",
+    "meaning": "coche"
+  },
+  "門": {
+    "reading": "もん / かど",
+    "meaning": "puerta"
+  },
+  "火": {
+    "reading": "ひ / か",
+    "meaning": "fuego"
+  },
+  "水": {
+    "reading": "みず / すい",
+    "meaning": "agua"
+  },
+  "金": {
+    "reading": "かね / きん",
+    "meaning": "dinero, oro"
+  },
+  "土": {
+    "reading": "つち / ど",
+    "meaning": "tierra"
+  },
+  "子": {
+    "reading": "こ / し",
+    "meaning": "niño"
+  },
+  "女": {
+    "reading": "おんな / じょ",
+    "meaning": "mujer"
+  },
+  "学": {
+    "reading": "まなぶ / がく",
+    "meaning": "estudiar"
+  },
+  "生": {
+    "reading": "いきる / せい",
+    "meaning": "vida, nacer"
+  },
+  "先": {
+    "reading": "さき / せん",
+    "meaning": "antes, primero"
+  },
+  "私": {
+    "reading": "わたし / し",
+    "meaning": "yo, privado"
+  },
+  "一": {
+    "reading": "一",
+    "meaning": ""
+  },
+  "二": {
+    "reading": "二",
+    "meaning": ""
+  },
+  "三": {
+    "reading": "三",
+    "meaning": ""
+  },
+  "四": {
+    "reading": "四",
+    "meaning": ""
+  },
+  "五": {
+    "reading": "五",
+    "meaning": ""
+  },
+  "六": {
+    "reading": "六",
+    "meaning": ""
+  },
+  "七": {
+    "reading": "七",
+    "meaning": ""
+  },
+  "八": {
+    "reading": "八",
+    "meaning": ""
+  },
+  "九": {
+    "reading": "九",
+    "meaning": ""
+  },
+  "十": {
+    "reading": "十",
+    "meaning": ""
+  },
+  "百": {
+    "reading": "百",
+    "meaning": ""
+  },
+  "千": {
+    "reading": "千",
+    "meaning": ""
+  },
+  "万": {
+    "reading": "万",
+    "meaning": ""
+  },
+  "円": {
+    "reading": "円",
+    "meaning": ""
+  },
+  "年": {
+    "reading": "年",
+    "meaning": ""
+  },
+  "上": {
+    "reading": "うえ / じょう",
+    "meaning": "arriba"
+  },
+  "下": {
+    "reading": "した / か",
+    "meaning": "abajo"
+  },
+  "中": {
+    "reading": "なか / ちゅう",
+    "meaning": "dentro, medio"
+  },
+  "大": {
+    "reading": "おおきい / だい",
+    "meaning": "grande"
+  },
+  "小": {
+    "reading": "ちいさい / しょう",
+    "meaning": "pequeño"
+  },
+  "本": {
+    "reading": "もと / ほん",
+    "meaning": "libro, origen"
+  },
+  "半": {
+    "reading": "なかば / はん",
+    "meaning": "mitad"
+  },
+  "分": {
+    "reading": "わける / ぶん",
+    "meaning": "dividir, parte"
+  },
+  "力": {
+    "reading": "ちから / りょく",
+    "meaning": "fuerza"
+  },
+  "何": {
+    "reading": "何",
+    "meaning": ""
+  },
+  "明": {
+    "reading": "あかるい / めい",
+    "meaning": "brillante"
+  },
+  "休": {
+    "reading": "やすむ / きゅう",
+    "meaning": "descansar"
+  },
+  "体": {
+    "reading": "からだ / たい",
+    "meaning": "cuerpo"
+  },
+  "好": {
+    "reading": "すき / こう",
+    "meaning": "gustar"
+  },
+  "男": {
+    "reading": "おとこ / だん",
+    "meaning": "hombre"
+  },
+  "森": {
+    "reading": "もり / しん",
+    "meaning": "bosque"
+  },
+  "林": {
+    "reading": "はやし / りん",
+    "meaning": "arboleda"
+  },
+  "岩": {
+    "reading": "いわ / がん",
+    "meaning": "roca"
+  },
+  "間": {
+    "reading": "あいだ / かん",
+    "meaning": "intervalo"
+  },
+  "畑": {
+    "reading": "畑",
+    "meaning": ""
+  },
+  "目": {
+    "reading": "目",
+    "meaning": ""
+  },
+  "耳": {
+    "reading": "耳",
+    "meaning": ""
+  },
+  "手": {
+    "reading": "手",
+    "meaning": ""
+  },
+  "足": {
+    "reading": "足",
+    "meaning": ""
+  },
+  "雨": {
+    "reading": "雨",
+    "meaning": ""
+  },
+  "竹": {
+    "reading": "竹",
+    "meaning": ""
+  },
+  "米": {
+    "reading": "米",
+    "meaning": ""
+  },
+  "貝": {
+    "reading": "貝",
+    "meaning": ""
+  },
+  "石": {
+    "reading": "石",
+    "meaning": ""
+  },
+  "糸": {
+    "reading": "糸",
+    "meaning": ""
+  },
+  "花": {
+    "reading": "はな / か",
+    "meaning": "flor"
+  },
+  "茶": {
+    "reading": "ちゃ / さ",
+    "meaning": "té"
+  },
+  "肉": {
+    "reading": "肉",
+    "meaning": ""
+  },
+  "文": {
+    "reading": "文",
+    "meaning": ""
+  },
+  "字": {
+    "reading": "字",
+    "meaning": ""
+  },
+  "物": {
+    "reading": "もの / ぶつ",
+    "meaning": "cosa"
+  },
+  "牛": {
+    "reading": "牛",
+    "meaning": ""
+  },
+  "馬": {
+    "reading": "馬",
+    "meaning": ""
+  },
+  "鳥": {
+    "reading": "鳥",
+    "meaning": ""
+  },
+  "魚": {
+    "reading": "魚",
+    "meaning": ""
+  },
+  "新": {
+    "reading": "あたらしい / しん",
+    "meaning": "nuevo"
+  },
+  "古": {
+    "reading": "ふるい / こ",
+    "meaning": "viejo"
+  },
+  "長": {
+    "reading": "長",
+    "meaning": ""
+  },
+  "高": {
+    "reading": "たかい / こう",
+    "meaning": "alto, caro"
+  },
+  "安": {
+    "reading": "やすい / あん",
+    "meaning": "barato, seguro"
+  },
+  "暗": {
+    "reading": "くらい / あん",
+    "meaning": "oscuro"
+  },
+  "多": {
+    "reading": "多",
+    "meaning": ""
+  },
+  "短": {
+    "reading": "みじかい / たん",
+    "meaning": "corto"
+  },
+  "少": {
+    "reading": "少",
+    "meaning": ""
+  },
+  "低": {
+    "reading": "ひくい / てい",
+    "meaning": "bajo"
+  },
+  "行": {
+    "reading": "いく / こう",
+    "meaning": "ir"
+  },
+  "帰": {
+    "reading": "かえる / き",
+    "meaning": "volver"
+  },
+  "来": {
+    "reading": "来",
+    "meaning": ""
+  },
+  "食": {
+    "reading": "たべる / しょく",
+    "meaning": "comer"
+  },
+  "飲": {
+    "reading": "のむ / いん",
+    "meaning": "beber"
+  },
+  "見": {
+    "reading": "みる / けん",
+    "meaning": "ver"
+  },
+  "聞": {
+    "reading": "きく / ぶん",
+    "meaning": "oír, preguntar"
+  },
+  "読": {
+    "reading": "よむ / どく",
+    "meaning": "leer"
+  },
+  "書": {
+    "reading": "書",
+    "meaning": ""
+  },
+  "話": {
+    "reading": "はなす / わ",
+    "meaning": "hablar"
+  },
+  "買": {
+    "reading": "かう / ばい",
+    "meaning": "comprar"
+  },
+  "教": {
+    "reading": "おしえる / きょう",
+    "meaning": "enseñar"
+  },
+  "朝": {
+    "reading": "あさ / ちょう",
+    "meaning": "mañana"
+  },
+  "晩": {
+    "reading": "ばん",
+    "meaning": "noche"
+  },
+  "昼": {
+    "reading": "昼",
+    "meaning": ""
+  },
+  "夜": {
+    "reading": "夜",
+    "meaning": ""
+  },
+  "夕": {
+    "reading": "夕",
+    "meaning": ""
+  },
+  "方": {
+    "reading": "方",
+    "meaning": ""
+  },
+  "午": {
+    "reading": "午",
+    "meaning": ""
+  },
+  "前": {
+    "reading": "前",
+    "meaning": ""
+  },
+  "後": {
+    "reading": "後",
+    "meaning": ""
+  },
+  "毎": {
+    "reading": "毎",
+    "meaning": ""
+  },
+  "週": {
+    "reading": "週",
+    "meaning": ""
+  },
+  "曜": {
+    "reading": "よう",
+    "meaning": "día de la semana"
+  },
+  "作": {
+    "reading": "つくる / さく",
+    "meaning": "crear"
+  },
+  "泳": {
+    "reading": "およぐ / えい",
+    "meaning": "nadar"
+  },
+  "油": {
+    "reading": "あぶら / ゆ",
+    "meaning": "aceite"
+  },
+  "海": {
+    "reading": "うみ / かい",
+    "meaning": "mar"
+  },
+  "酒": {
+    "reading": "さけ / しゅ",
+    "meaning": "sake, alcohol"
+  },
+  "待": {
+    "reading": "まつ / たい",
+    "meaning": "esperar"
+  },
+  "校": {
+    "reading": "こう",
+    "meaning": "escuela"
+  },
+  "時": {
+    "reading": "とき / じ",
+    "meaning": "tiempo, hora"
+  },
+  "言": {
+    "reading": "言",
+    "meaning": ""
+  },
+  "計": {
+    "reading": "はかる / けい",
+    "meaning": "medir, contar"
+  },
+  "語": {
+    "reading": "かたる / ご",
+    "meaning": "idioma, hablar"
+  },
+  "飯": {
+    "reading": "飯",
+    "meaning": ""
+  },
+  "宅": {
+    "reading": "たく",
+    "meaning": "residencia"
+  },
+  "客": {
+    "reading": "きゃく",
+    "meaning": "cliente, invitado"
+  },
+  "室": {
+    "reading": "しつ / むろ",
+    "meaning": "habitación"
+  },
+  "家": {
+    "reading": "いえ / か",
+    "meaning": "casa, familia"
+  },
+  "英": {
+    "reading": "えい",
+    "meaning": "inglés, excelente"
+  },
+  "薬": {
+    "reading": "くすり / やく",
+    "meaning": "medicina"
+  },
+  "会": {
+    "reading": "あう / かい",
+    "meaning": "reunión, encontrar"
+  },
+  "今": {
+    "reading": "いま / こん",
+    "meaning": "ahora"
+  },
+  "雪": {
+    "reading": "ゆき / せつ",
+    "meaning": "nieve"
+  },
+  "雲": {
+    "reading": "くも / うん",
+    "meaning": "nube"
+  },
+  "電": {
+    "reading": "でん",
+    "meaning": "electricidad"
+  },
+  "売": {
+    "reading": "うる / ばい",
+    "meaning": "vender"
+  },
+  "広": {
+    "reading": "ひろい / こう",
+    "meaning": "ancho"
+  },
+  "店": {
+    "reading": "みせ / てん",
+    "meaning": "tienda"
+  },
+  "度": {
+    "reading": "たび / ど",
+    "meaning": "vez, grado"
+  },
+  "病": {
+    "reading": "やまい / びょう",
+    "meaning": "enfermedad"
+  },
+  "疲": {
+    "reading": "疲",
+    "meaning": ""
+  },
+  "痛": {
+    "reading": "いたい / つう",
+    "meaning": "dolor"
+  },
+  "屋": {
+    "reading": "屋",
+    "meaning": ""
+  },
+  "国": {
+    "reading": "くに / こく",
+    "meaning": "país"
+  },
+  "回": {
+    "reading": "まわる / かい",
+    "meaning": "girar, vez"
+  },
+  "困": {
+    "reading": "こまる / こん",
+    "meaning": "estar en apuros"
+  },
+  "開": {
+    "reading": "あける / かい",
+    "meaning": "abrir"
+  },
+  "閉": {
+    "reading": "しめる / へい",
+    "meaning": "cerrar"
+  },
+  "近": {
+    "reading": "ちかい / きん",
+    "meaning": "cerca"
+  },
+  "遠": {
+    "reading": "とおい / えん",
+    "meaning": "lejos"
+  },
+  "速": {
+    "reading": "はやい / そく",
+    "meaning": "rápido"
+  },
+  "遅": {
+    "reading": "遅",
+    "meaning": ""
+  },
+  "道": {
+    "reading": "みち / どう",
+    "meaning": "camino"
+  },
+  "青": {
+    "reading": "青",
+    "meaning": ""
+  },
+  "晴": {
+    "reading": "はれる / せい",
+    "meaning": "despejado"
+  },
+  "静": {
+    "reading": "しずか / せい",
+    "meaning": "tranquilo"
+  },
+  "寺": {
+    "reading": "寺",
+    "meaning": ""
+  },
+  "持": {
+    "reading": "もつ / じ",
+    "meaning": "tener, llevar"
+  },
+  "荷": {
+    "reading": "荷",
+    "meaning": ""
+  },
+  "歌": {
+    "reading": "うた / か",
+    "meaning": "canción"
+  },
+  "母": {
+    "reading": "母",
+    "meaning": ""
+  },
+  "父": {
+    "reading": "父",
+    "meaning": ""
+  },
+  "兄": {
+    "reading": "兄",
+    "meaning": ""
+  },
+  "姉": {
+    "reading": "姉",
+    "meaning": ""
+  },
+  "友": {
+    "reading": "友",
+    "meaning": ""
+  },
+  "弟": {
+    "reading": "弟",
+    "meaning": ""
+  },
+  "妹": {
+    "reading": "妹",
+    "meaning": ""
+  },
+  "夫": {
+    "reading": "夫",
+    "meaning": ""
+  },
+  "妻": {
+    "reading": "妻",
+    "meaning": ""
+  },
+  "彼": {
+    "reading": "彼",
+    "meaning": ""
+  },
+  "主": {
+    "reading": "主",
+    "meaning": ""
+  },
+  "奥": {
+    "reading": "奥",
+    "meaning": ""
+  },
+  "元": {
+    "reading": "元",
+    "meaning": ""
+  },
+  "気": {
+    "reading": "き / け",
+    "meaning": "espíritu, aire"
+  },
+  "有": {
+    "reading": "ある / ゆう",
+    "meaning": "tener, existir"
+  },
+  "名": {
+    "reading": "な / めい",
+    "meaning": "nombre"
+  },
+  "親": {
+    "reading": "おや / しん",
+    "meaning": "padre/madre"
+  },
+  "切": {
+    "reading": "きる / せつ",
+    "meaning": "cortar"
+  },
+  "便": {
+    "reading": "たより / べん",
+    "meaning": "conveniente"
+  },
+  "利": {
+    "reading": "り",
+    "meaning": "beneficio"
+  },
+  "不": {
+    "reading": "不",
+    "meaning": ""
+  },
+  "若": {
+    "reading": "若",
+    "meaning": ""
+  },
+  "早": {
+    "reading": "早",
+    "meaning": ""
+  },
+  "忙": {
+    "reading": "忙",
+    "meaning": ""
+  },
+  "出": {
+    "reading": "出",
+    "meaning": ""
+  },
+  "入": {
+    "reading": "入",
+    "meaning": ""
+  },
+  "乗": {
+    "reading": "のる / じょう",
+    "meaning": "montar"
+  },
+  "降": {
+    "reading": "おりる / こう",
+    "meaning": "bajar, caer"
+  },
+  "着": {
+    "reading": "つく / ちゃく",
+    "meaning": "llegar, vestir"
+  },
+  "渡": {
+    "reading": "わたる / と",
+    "meaning": "cruzar"
+  },
+  "通": {
+    "reading": "とおる / つう",
+    "meaning": "pasar"
+  },
+  "走": {
+    "reading": "はしる / そう",
+    "meaning": "correr"
+  },
+  "歩": {
+    "reading": "あるく / ほ",
+    "meaning": "caminar"
+  },
+  "止": {
+    "reading": "止",
+    "meaning": ""
+  },
+  "動": {
+    "reading": "うごく / どう",
+    "meaning": "mover"
+  },
+  "働": {
+    "reading": "はたらく / どう",
+    "meaning": "trabajar"
+  },
+  "右": {
+    "reading": "右",
+    "meaning": ""
+  },
+  "左": {
+    "reading": "左",
+    "meaning": ""
+  },
+  "東": {
+    "reading": "ひがし / とう",
+    "meaning": "este"
+  },
+  "西": {
+    "reading": "西",
+    "meaning": ""
+  },
+  "北": {
+    "reading": "北",
+    "meaning": ""
+  },
+  "南": {
+    "reading": "南",
+    "meaning": ""
+  },
+  "外": {
+    "reading": "外",
+    "meaning": ""
+  },
+  "内": {
+    "reading": "内",
+    "meaning": ""
+  },
+  "部": {
+    "reading": "部",
+    "meaning": ""
+  },
+  "駅": {
+    "reading": "えき",
+    "meaning": "estación"
+  },
+  "社": {
+    "reading": "やしろ / しゃ",
+    "meaning": "compañía, santuario"
+  },
+  "院": {
+    "reading": "いん",
+    "meaning": "institución"
+  },
+  "地": {
+    "reading": "ち / じ",
+    "meaning": "tierra, suelo"
+  },
+  "鉄": {
+    "reading": "てつ",
+    "meaning": "hierro"
+  },
+  "工": {
+    "reading": "工",
+    "meaning": ""
+  },
+  "場": {
+    "reading": "ば / じょう",
+    "meaning": "lugar"
+  },
+  "図": {
+    "reading": "ず / と",
+    "meaning": "diagrama, mapa"
+  },
+  "館": {
+    "reading": "かん",
+    "meaning": "edificio público"
+  },
+  "公": {
+    "reading": "公",
+    "meaning": ""
+  },
+  "園": {
+    "reading": "その / えん",
+    "meaning": "jardín, parque"
+  },
+  "住": {
+    "reading": "すむ / じゅう",
+    "meaning": "vivir"
+  },
+  "所": {
+    "reading": "所",
+    "meaning": ""
+  },
+  "番": {
+    "reading": "番",
+    "meaning": ""
+  },
+  "号": {
+    "reading": "ごう",
+    "meaning": "número"
+  },
+  "市": {
+    "reading": "市",
+    "meaning": ""
+  },
+  "町": {
+    "reading": "町",
+    "meaning": ""
+  },
+  "村": {
+    "reading": "村",
+    "meaning": ""
+  },
+  "区": {
+    "reading": "区",
+    "meaning": ""
+  },
+  "都": {
+    "reading": "都",
+    "meaning": ""
+  },
+  "府": {
+    "reading": "府",
+    "meaning": ""
+  },
+  "県": {
+    "reading": "県",
+    "meaning": ""
+  },
+  "島": {
+    "reading": "島",
+    "meaning": ""
+  },
+  "京": {
+    "reading": "京",
+    "meaning": ""
+  },
+  "様": {
+    "reading": "様",
+    "meaning": ""
+  },
+  "練": {
+    "reading": "ねる / れん",
+    "meaning": "practicar"
+  },
+  "習": {
+    "reading": "ならう / しゅう",
+    "meaning": "aprender"
+  },
+  "勉": {
+    "reading": "べん",
+    "meaning": "esfuerzo"
+  },
+  "強": {
+    "reading": "つよい / きょう",
+    "meaning": "fuerte"
+  },
+  "研": {
+    "reading": "けん",
+    "meaning": "pulir, investigar"
+  },
+  "究": {
+    "reading": "きゅう",
+    "meaning": "investigar"
+  },
+  "留": {
+    "reading": "留",
+    "meaning": ""
+  },
+  "質": {
+    "reading": "しつ / しち",
+    "meaning": "calidad"
+  },
+  "問": {
+    "reading": "とう / もん",
+    "meaning": "preguntar"
+  },
+  "題": {
+    "reading": "だい",
+    "meaning": "tema, título"
+  },
+  "答": {
+    "reading": "こたえる / とう",
+    "meaning": "respuesta"
+  },
+  "宿": {
+    "reading": "宿",
+    "meaning": ""
+  },
+  "征": {
+    "reading": "征",
+    "meaning": ""
+  },
+  "治": {
+    "reading": "なおす / ち",
+    "meaning": "gobernar, curar"
+  },
+  "経": {
+    "reading": "へる / けい",
+    "meaning": "pasar por"
+  },
+  "済": {
+    "reading": "すむ / さい",
+    "meaning": "terminar, ahorrar"
+  },
+  "歴": {
+    "reading": "れき",
+    "meaning": "historial"
+  },
+  "史": {
+    "reading": "史",
+    "meaning": ""
+  },
+  "育": {
+    "reading": "そだてる / いく",
+    "meaning": "criar"
+  },
+  "化": {
+    "reading": "ばける / か",
+    "meaning": "transformar"
+  },
+  "理": {
+    "reading": "り",
+    "meaning": "razón, lógica"
+  },
+  "科": {
+    "reading": "か",
+    "meaning": "sección, ciencia"
+  },
+  "数": {
+    "reading": "かず / すう",
+    "meaning": "número, contar"
+  },
+  "医": {
+    "reading": "い",
+    "meaning": "medicina"
+  },
+  "映": {
+    "reading": "うつる / えい",
+    "meaning": "reflejar, proyectar"
+  },
+  "画": {
+    "reading": "が / かく",
+    "meaning": "imagen, trazo"
+  },
+  "写": {
+    "reading": "うつす / しゃ",
+    "meaning": "copiar, foto"
+  },
+  "真": {
+    "reading": "真",
+    "meaning": ""
+  },
+  "音": {
+    "reading": "おと / おん",
+    "meaning": "sonido"
+  },
+  "楽": {
+    "reading": "たのしい / がく",
+    "meaning": "divertido, música"
+  },
+  "料": {
+    "reading": "料",
+    "meaning": ""
+  },
+  "組": {
+    "reading": "くむ / そ",
+    "meaning": "grupo, conjunto"
+  },
+  "思": {
+    "reading": "おもう / し",
+    "meaning": "pensar"
+  },
+  "色": {
+    "reading": "色",
+    "meaning": ""
+  },
+  "白": {
+    "reading": "白",
+    "meaning": ""
+  },
+  "黒": {
+    "reading": "黒",
+    "meaning": ""
+  },
+  "赤": {
+    "reading": "赤",
+    "meaning": ""
+  },
+  "起": {
+    "reading": "起",
+    "meaning": ""
+  },
+  "寝": {
+    "reading": "寝",
+    "meaning": ""
+  },
+  "遊": {
+    "reading": "遊",
+    "meaning": ""
+  },
+  "立": {
+    "reading": "立",
+    "meaning": ""
+  },
+  "座": {
+    "reading": "座",
+    "meaning": ""
+  },
+  "使": {
+    "reading": "使",
+    "meaning": ""
+  },
+  "始": {
+    "reading": "始",
+    "meaning": ""
+  },
+  "終": {
+    "reading": "終",
+    "meaning": ""
+  },
+  "貸": {
+    "reading": "貸",
+    "meaning": ""
+  },
+  "借": {
+    "reading": "借",
+    "meaning": ""
+  },
+  "返": {
+    "reading": "返",
+    "meaning": ""
+  },
+  "送": {
+    "reading": "送",
+    "meaning": ""
+  },
+  "結": {
+    "reading": "結",
+    "meaning": ""
+  },
+  "婚": {
+    "reading": "婚",
+    "meaning": ""
+  },
+  "離": {
+    "reading": "離",
+    "meaning": ""
+  },
+  "席": {
+    "reading": "席",
+    "meaning": ""
+  },
+  "欠": {
+    "reading": "欠",
+    "meaning": ""
+  },
+  "予": {
+    "reading": "予",
+    "meaning": ""
+  },
+  "定": {
+    "reading": "定",
+    "meaning": ""
+  },
+  "洋": {
+    "reading": "洋",
+    "meaning": ""
+  },
+  "式": {
+    "reading": "式",
+    "meaning": ""
+  },
+  "和": {
+    "reading": "和",
+    "meaning": ""
+  },
+  "活": {
+    "reading": "活",
+    "meaning": ""
+  },
+  "春": {
+    "reading": "春",
+    "meaning": ""
+  },
+  "夏": {
+    "reading": "夏",
+    "meaning": ""
+  },
+  "秋": {
+    "reading": "秋",
+    "meaning": ""
+  },
+  "冬": {
+    "reading": "冬",
+    "meaning": ""
+  },
+  "暑": {
+    "reading": "暑",
+    "meaning": ""
+  },
+  "熱": {
+    "reading": "熱",
+    "meaning": ""
+  },
+  "寒": {
+    "reading": "寒",
+    "meaning": ""
+  },
+  "冷": {
+    "reading": "冷",
+    "meaning": ""
+  },
+  "暖": {
+    "reading": "暖",
+    "meaning": ""
+  },
+  "温": {
+    "reading": "温",
+    "meaning": ""
+  },
+  "涼": {
+    "reading": "涼",
+    "meaning": ""
+  },
+  "天": {
+    "reading": "天",
+    "meaning": ""
+  },
+  "仕": {
+    "reading": "仕",
+    "meaning": ""
+  },
+  "事": {
+    "reading": "事",
+    "meaning": ""
+  },
+  "者": {
+    "reading": "者",
+    "meaning": ""
+  },
+  "運": {
+    "reading": "運",
+    "meaning": ""
+  },
+  "転": {
+    "reading": "転",
+    "meaning": ""
+  },
+  "選": {
+    "reading": "選",
+    "meaning": ""
+  },
+  "記": {
+    "reading": "記",
+    "meaning": ""
+  },
+  "議": {
+    "reading": "議",
+    "meaning": ""
+  },
+  "員": {
+    "reading": "員",
+    "meaning": ""
+  },
+  "商": {
+    "reading": "商",
+    "meaning": ""
+  },
+  "業": {
+    "reading": "業",
+    "meaning": ""
+  },
+  "農": {
+    "reading": "農",
+    "meaning": ""
+  },
+  "良": {
+    "reading": "良",
+    "meaning": ""
+  },
+  "悪": {
+    "reading": "悪",
+    "meaning": ""
+  },
+  "点": {
+    "reading": "点",
+    "meaning": ""
+  },
+  "正": {
+    "reading": "正",
+    "meaning": ""
+  },
+  "違": {
+    "reading": "違",
+    "meaning": ""
+  },
+  "同": {
+    "reading": "同",
+    "meaning": ""
+  },
+  "適": {
+    "reading": "適",
+    "meaning": ""
+  },
+  "当": {
+    "reading": "当",
+    "meaning": ""
+  },
+  "難": {
+    "reading": "難",
+    "meaning": ""
+  },
+  "次": {
+    "reading": "次",
+    "meaning": ""
+  },
+  "形": {
+    "reading": "形",
+    "meaning": ""
+  },
+  "味": {
+    "reading": "味",
+    "meaning": ""
+  },
+  "試": {
+    "reading": "試",
+    "meaning": ""
+  },
+  "験": {
+    "reading": "験",
+    "meaning": ""
+  },
+  "面": {
+    "reading": "面",
+    "meaning": ""
+  },
+  "接": {
+    "reading": "接",
+    "meaning": ""
+  },
+  "説": {
+    "reading": "説",
+    "meaning": ""
+  },
+  "果": {
+    "reading": "果",
+    "meaning": ""
+  },
+  "合": {
+    "reading": "合",
+    "meaning": ""
+  },
+  "格": {
+    "reading": "格",
+    "meaning": ""
+  },
+  "受": {
+    "reading": "受",
+    "meaning": ""
+  },
+  "落": {
+    "reading": "落",
+    "meaning": ""
+  },
+  "残": {
+    "reading": "残",
+    "meaning": ""
+  },
+  "念": {
+    "reading": "念",
+    "meaning": ""
+  },
+  "指": {
+    "reading": "指",
+    "meaning": ""
+  },
+  "折": {
+    "reading": "折",
+    "meaning": ""
+  },
+  "払": {
+    "reading": "払",
+    "meaning": ""
+  },
+  "投": {
+    "reading": "投",
+    "meaning": ""
+  },
+  "打": {
+    "reading": "打",
+    "meaning": ""
+  },
+  "深": {
+    "reading": "深",
+    "meaning": ""
+  },
+  "洗": {
+    "reading": "洗",
+    "meaning": ""
+  },
+  "流": {
+    "reading": "流",
+    "meaning": ""
+  },
+  "消": {
+    "reading": "消",
+    "meaning": ""
+  },
+  "決": {
+    "reading": "決",
+    "meaning": ""
+  },
+  "旅": {
+    "reading": "旅",
+    "meaning": ""
+  },
+  "約": {
+    "reading": "約",
+    "meaning": ""
+  },
+  "案": {
+    "reading": "案",
+    "meaning": ""
+  }
+}

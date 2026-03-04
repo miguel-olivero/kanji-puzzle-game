@@ -1,0 +1,8490 @@
+{
+  "日": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "日_c0",
+        "char": "日",
+        "label": "sol",
+        "label_en": "sun",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "月": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "月_c0",
+        "char": "月",
+        "label": "luna",
+        "label_en": "moon",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "木": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "木_c0",
+        "char": "木",
+        "label": "árbol",
+        "label_en": "tree",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "山": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "山_c0",
+        "char": "山",
+        "label": "montaña",
+        "label_en": "mountain",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "川": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "川_c0",
+        "char": "川",
+        "label": "río",
+        "label_en": "river",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "田": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "田_c0",
+        "char": "田",
+        "label": "arrozal",
+        "label_en": "rice field",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "人": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "人_c0",
+        "char": "人",
+        "label": "persona",
+        "label_en": "person",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "口": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "口_c0",
+        "char": "口",
+        "label": "boca",
+        "label_en": "mouth",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "車": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "車_c0",
+        "char": "車",
+        "label": "車",
+        "label_en": "車",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "門": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "門_c0",
+        "char": "門",
+        "label": "puerta",
+        "label_en": "gate",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "火": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "火_c0",
+        "char": "火",
+        "label": "fuego",
+        "label_en": "fire",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "水": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "水_c0",
+        "char": "水",
+        "label": "agua",
+        "label_en": "water",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "金": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "金_c0",
+        "char": "金",
+        "label": "oro",
+        "label_en": "gold",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "土": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "土_c0",
+        "char": "土",
+        "label": "tierra",
+        "label_en": "ground",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "子": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "子_c0",
+        "char": "子",
+        "label": "niño",
+        "label_en": "child",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "女": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "女_c0",
+        "char": "女",
+        "label": "mujer",
+        "label_en": "woman",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "学": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "学_c0",
+        "char": "学",
+        "label": "学",
+        "label_en": "学",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "生": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "生_c0",
+        "char": "生",
+        "label": "生",
+        "label_en": "生",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "先": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "先_c0",
+        "char": "先",
+        "label": "先",
+        "label_en": "先",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "私": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "私_c0",
+        "char": "私",
+        "label": "私",
+        "label_en": "私",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "一": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "一_c0",
+        "char": "一",
+        "label": "uno",
+        "label_en": "one",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "二": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "二_c0",
+        "char": "二",
+        "label": "dos",
+        "label_en": "two",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "三": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "三_c0",
+        "char": "三",
+        "label": "三",
+        "label_en": "三",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "四": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "四_c0",
+        "char": "四",
+        "label": "四",
+        "label_en": "四",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "五": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "五_c0",
+        "char": "五",
+        "label": "五",
+        "label_en": "五",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "六": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "六_c0",
+        "char": "六",
+        "label": "六",
+        "label_en": "六",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "七": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "七_c0",
+        "char": "七",
+        "label": "siete",
+        "label_en": "seven",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "八": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "八_c0",
+        "char": "八",
+        "label": "ocho",
+        "label_en": "eight",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "九": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "九_c0",
+        "char": "九",
+        "label": "nueve",
+        "label_en": "nine",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "十": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "十_c0",
+        "char": "十",
+        "label": "diez",
+        "label_en": "ten",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "百": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "百_c0",
+        "char": "百",
+        "label": "百",
+        "label_en": "百",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "千": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "千_c0",
+        "char": "千",
+        "label": "千",
+        "label_en": "千",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "万": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "万_c0",
+        "char": "万",
+        "label": "万",
+        "label_en": "万",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "円": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "円_c0",
+        "char": "円",
+        "label": "円",
+        "label_en": "円",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "年": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "年_c0",
+        "char": "年",
+        "label": "年",
+        "label_en": "年",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "上": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "上_c0",
+        "char": "上",
+        "label": "上",
+        "label_en": "上",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "下": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "下_c0",
+        "char": "下",
+        "label": "下",
+        "label_en": "下",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "中": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "中_c0",
+        "char": "中",
+        "label": "中",
+        "label_en": "中",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "大": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "大_c0",
+        "char": "大",
+        "label": "grande",
+        "label_en": "big",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "小": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "小_c0",
+        "char": "小",
+        "label": "pequeño",
+        "label_en": "small",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "本": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "本_c0",
+        "char": "本",
+        "label": "libro / origen",
+        "label_en": "book / origin",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "半": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "半_c0",
+        "char": "半",
+        "label": "半",
+        "label_en": "半",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "分": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "分_c0",
+        "char": "分",
+        "label": "分",
+        "label_en": "分",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "力": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "力_c0",
+        "char": "力",
+        "label": "fuerza",
+        "label_en": "effort",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "何": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "何_c0",
+        "char": "何",
+        "label": "何",
+        "label_en": "何",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "明": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "明_c0",
+        "char": "日",
+        "label": "sol",
+        "label_en": "sun",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.45,
+          "h": 1
+        }
+      },
+      {
+        "id": "明_c1",
+        "char": "月",
+        "label": "luna",
+        "label_en": "moon",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.45,
+          "y": 0,
+          "w": 0.55,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "休": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "休_c0",
+        "char": "亻",
+        "label": "persona",
+        "label_en": "person",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.35,
+          "h": 1
+        }
+      },
+      {
+        "id": "休_c1",
+        "char": "木",
+        "label": "árbol",
+        "label_en": "tree",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.35,
+          "y": 0,
+          "w": 0.65,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "体": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "体_c0",
+        "char": "亻",
+        "label": "persona",
+        "label_en": "person",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.35,
+          "h": 1
+        }
+      },
+      {
+        "id": "体_c1",
+        "char": "本",
+        "label": "libro / origen",
+        "label_en": "book / origin",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.35,
+          "y": 0,
+          "w": 0.65,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "好": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "好_c0",
+        "char": "女",
+        "label": "mujer",
+        "label_en": "woman",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.45,
+          "h": 1
+        }
+      },
+      {
+        "id": "好_c1",
+        "char": "子",
+        "label": "niño",
+        "label_en": "child",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.45,
+          "y": 0,
+          "w": 0.55,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "男": {
+    "layout": "⿱",
+    "components": [
+      {
+        "id": "男_c0",
+        "char": "田",
+        "label": "arrozal",
+        "label_en": "rice field",
+        "slot_id": "top",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.5
+        }
+      },
+      {
+        "id": "男_c1",
+        "char": "力",
+        "label": "fuerza",
+        "label_en": "effort",
+        "slot_id": "bottom",
+        "order_index": 1,
+        "bounds": {
+          "x": 0,
+          "y": 0.5,
+          "w": 1,
+          "h": 0.5
+        }
+      }
+    ]
+  },
+  "森": {
+    "layout": "grid",
+    "components": [
+      {
+        "id": "森_c0",
+        "char": "木",
+        "label": "árbol",
+        "label_en": "tree",
+        "slot_id": "top",
+        "order_index": 0,
+        "bounds": {
+          "x": 0.25,
+          "y": 0,
+          "w": 0.5,
+          "h": 0.5
+        }
+      },
+      {
+        "id": "森_c1",
+        "char": "木",
+        "label": "árbol",
+        "label_en": "tree",
+        "slot_id": "bottom-left",
+        "order_index": 1,
+        "bounds": {
+          "x": 0,
+          "y": 0.5,
+          "w": 0.5,
+          "h": 0.5
+        }
+      },
+      {
+        "id": "森_c2",
+        "char": "木",
+        "label": "árbol",
+        "label_en": "tree",
+        "slot_id": "bottom-right",
+        "order_index": 2,
+        "bounds": {
+          "x": 0.5,
+          "y": 0.5,
+          "w": 0.5,
+          "h": 0.5
+        }
+      }
+    ]
+  },
+  "林": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "林_c0",
+        "char": "木",
+        "label": "árbol",
+        "label_en": "tree",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.5,
+          "h": 1
+        }
+      },
+      {
+        "id": "林_c1",
+        "char": "木",
+        "label": "árbol",
+        "label_en": "tree",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.5,
+          "y": 0,
+          "w": 0.5,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "岩": {
+    "layout": "⿱",
+    "components": [
+      {
+        "id": "岩_c0",
+        "char": "山",
+        "label": "montaña",
+        "label_en": "mountain",
+        "slot_id": "top",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.4
+        }
+      },
+      {
+        "id": "岩_c1",
+        "char": "石",
+        "label": "piedra",
+        "label_en": "stone",
+        "slot_id": "bottom",
+        "order_index": 1,
+        "bounds": {
+          "x": 0,
+          "y": 0.4,
+          "w": 1,
+          "h": 0.6
+        }
+      }
+    ]
+  },
+  "間": {
+    "layout": "⿴",
+    "components": [
+      {
+        "id": "間_c0",
+        "char": "門",
+        "label": "puerta",
+        "label_en": "gate",
+        "slot_id": "outer",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      },
+      {
+        "id": "間_c1",
+        "char": "日",
+        "label": "sol",
+        "label_en": "sun",
+        "slot_id": "inner",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.25,
+          "y": 0.3,
+          "w": 0.5,
+          "h": 0.45
+        }
+      }
+    ]
+  },
+  "畑": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "畑_c0",
+        "char": "火",
+        "label": "fuego",
+        "label_en": "fire",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.45,
+          "h": 1
+        }
+      },
+      {
+        "id": "畑_c1",
+        "char": "田",
+        "label": "arrozal",
+        "label_en": "rice field",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.45,
+          "y": 0,
+          "w": 0.55,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "目": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "目_c0",
+        "char": "目",
+        "label": "ojo",
+        "label_en": "eye",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "耳": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "耳_c0",
+        "char": "耳",
+        "label": "oreja",
+        "label_en": "ear",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "手": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "手_c0",
+        "char": "手",
+        "label": "手",
+        "label_en": "手",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "足": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "足_c0",
+        "char": "足",
+        "label": "足",
+        "label_en": "足",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "雨": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "雨_c0",
+        "char": "雨",
+        "label": "lluvia",
+        "label_en": "rain",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "竹": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "竹_c0",
+        "char": "竹",
+        "label": "bambú",
+        "label_en": "bamboo",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "米": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "米_c0",
+        "char": "米",
+        "label": "arroz",
+        "label_en": "rice",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "貝": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "貝_c0",
+        "char": "貝",
+        "label": "concha",
+        "label_en": "shellfish",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "石": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "石_c0",
+        "char": "石",
+        "label": "piedra",
+        "label_en": "stone",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "糸": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "糸_c0",
+        "char": "糸",
+        "label": "hilo",
+        "label_en": "thread",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "花": {
+    "layout": "⿱",
+    "components": [
+      {
+        "id": "花_c0",
+        "char": "艹",
+        "label": "hierba",
+        "label_en": "grass",
+        "slot_id": "top",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.3
+        }
+      },
+      {
+        "id": "花_c1",
+        "char": "化",
+        "label": "cambio",
+        "label_en": "change",
+        "slot_id": "bottom",
+        "order_index": 1,
+        "bounds": {
+          "x": 0,
+          "y": 0.3,
+          "w": 1,
+          "h": 0.7
+        }
+      }
+    ]
+  },
+  "茶": {
+    "layout": "⿱",
+    "components": [
+      {
+        "id": "茶_c0",
+        "char": "艹",
+        "label": "hierba",
+        "label_en": "grass",
+        "slot_id": "top",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.25
+        }
+      },
+      {
+        "id": "茶_c1",
+        "char": "余",
+        "label": "excedente",
+        "label_en": "surplus",
+        "slot_id": "bottom",
+        "order_index": 1,
+        "bounds": {
+          "x": 0,
+          "y": 0.25,
+          "w": 1,
+          "h": 0.75
+        }
+      }
+    ]
+  },
+  "肉": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "肉_c0",
+        "char": "肉",
+        "label": "肉",
+        "label_en": "肉",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "文": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "文_c0",
+        "char": "文",
+        "label": "literatura",
+        "label_en": "literature",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "字": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "字_c0",
+        "char": "字",
+        "label": "字",
+        "label_en": "字",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "物": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "物_c0",
+        "char": "牜",
+        "label": "vaca",
+        "label_en": "cow",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.4,
+          "h": 1
+        }
+      },
+      {
+        "id": "物_c1",
+        "char": "勿",
+        "label": "no",
+        "label_en": "not",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.4,
+          "y": 0,
+          "w": 0.6,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "牛": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "牛_c0",
+        "char": "牛",
+        "label": "vaca",
+        "label_en": "cow",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "馬": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "馬_c0",
+        "char": "馬",
+        "label": "caballo",
+        "label_en": "horse",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "鳥": {
+    "layout": "⿱",
+    "components": [
+      {
+        "id": "鳥_c0",
+        "char": "烏",
+        "label": "cuervo",
+        "label_en": "crow",
+        "slot_id": "top",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.55
+        }
+      },
+      {
+        "id": "鳥_c1",
+        "char": "灬",
+        "label": "fuego",
+        "label_en": "fire",
+        "slot_id": "bottom",
+        "order_index": 1,
+        "bounds": {
+          "x": 0,
+          "y": 0.55,
+          "w": 1,
+          "h": 0.45
+        }
+      }
+    ]
+  },
+  "魚": {
+    "layout": "⿱",
+    "components": [
+      {
+        "id": "魚_c0",
+        "char": "⺈",
+        "label": "esquina",
+        "label_en": "corner",
+        "slot_id": "top",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.25
+        }
+      },
+      {
+        "id": "魚_c1",
+        "char": "田",
+        "label": "arrozal",
+        "label_en": "rice field",
+        "slot_id": "mid",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.15,
+          "y": 0.25,
+          "w": 0.7,
+          "h": 0.35
+        }
+      },
+      {
+        "id": "魚_c2",
+        "char": "灬",
+        "label": "fuego",
+        "label_en": "fire",
+        "slot_id": "bottom",
+        "order_index": 2,
+        "bounds": {
+          "x": 0,
+          "y": 0.6,
+          "w": 1,
+          "h": 0.4
+        }
+      }
+    ]
+  },
+  "新": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "新_c0",
+        "char": "立",
+        "label": "estar de pie",
+        "label_en": "stand",
+        "slot_id": "top-left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.45,
+          "h": 0.5
+        }
+      },
+      {
+        "id": "新_c1",
+        "char": "木",
+        "label": "árbol",
+        "label_en": "tree",
+        "slot_id": "bot-left",
+        "order_index": 1,
+        "bounds": {
+          "x": 0,
+          "y": 0.5,
+          "w": 0.45,
+          "h": 0.5
+        }
+      },
+      {
+        "id": "新_c2",
+        "char": "斤",
+        "label": "hacha",
+        "label_en": "axe",
+        "slot_id": "right",
+        "order_index": 2,
+        "bounds": {
+          "x": 0.45,
+          "y": 0,
+          "w": 0.55,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "古": {
+    "layout": "⿱",
+    "components": [
+      {
+        "id": "古_c0",
+        "char": "十",
+        "label": "diez",
+        "label_en": "ten",
+        "slot_id": "top",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.45
+        }
+      },
+      {
+        "id": "古_c1",
+        "char": "口",
+        "label": "boca",
+        "label_en": "mouth",
+        "slot_id": "bottom",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.15,
+          "y": 0.45,
+          "w": 0.7,
+          "h": 0.55
+        }
+      }
+    ]
+  },
+  "長": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "長_c0",
+        "char": "長",
+        "label": "長",
+        "label_en": "長",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "高": {
+    "layout": "⿱",
+    "components": [
+      {
+        "id": "高_c0",
+        "char": "亠",
+        "label": "tapa",
+        "label_en": "lid",
+        "slot_id": "top",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.3
+        }
+      },
+      {
+        "id": "高_c1",
+        "char": "冋",
+        "label": "boca ancha",
+        "label_en": "wide mouth",
+        "slot_id": "bottom",
+        "order_index": 1,
+        "bounds": {
+          "x": 0,
+          "y": 0.3,
+          "w": 1,
+          "h": 0.7
+        }
+      }
+    ]
+  },
+  "安": {
+    "layout": "⿱",
+    "components": [
+      {
+        "id": "安_c0",
+        "char": "宀",
+        "label": "techo",
+        "label_en": "roof",
+        "slot_id": "top",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.35
+        }
+      },
+      {
+        "id": "安_c1",
+        "char": "女",
+        "label": "mujer",
+        "label_en": "woman",
+        "slot_id": "bottom",
+        "order_index": 1,
+        "bounds": {
+          "x": 0,
+          "y": 0.35,
+          "w": 1,
+          "h": 0.65
+        }
+      }
+    ]
+  },
+  "暗": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "暗_c0",
+        "char": "日",
+        "label": "sol",
+        "label_en": "sun",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.4,
+          "h": 1
+        }
+      },
+      {
+        "id": "暗_c1",
+        "char": "音",
+        "label": "sonido",
+        "label_en": "sound",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.4,
+          "y": 0,
+          "w": 0.6,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "多": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "多_c0",
+        "char": "多",
+        "label": "多",
+        "label_en": "多",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "短": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "短_c0",
+        "char": "矢",
+        "label": "flecha",
+        "label_en": "arrow",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.45,
+          "h": 1
+        }
+      },
+      {
+        "id": "短_c1",
+        "char": "豆",
+        "label": "frijol",
+        "label_en": "bean",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.45,
+          "y": 0,
+          "w": 0.55,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "少": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "少_c0",
+        "char": "少",
+        "label": "poco",
+        "label_en": "few",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "低": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "低_c0",
+        "char": "亻",
+        "label": "persona",
+        "label_en": "person",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.3,
+          "h": 1
+        }
+      },
+      {
+        "id": "低_c1",
+        "char": "氐",
+        "label": "clan",
+        "label_en": "clan",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.3,
+          "y": 0,
+          "w": 0.7,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "行": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "行_c0",
+        "char": "彳",
+        "label": "paso",
+        "label_en": "step",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.35,
+          "h": 1
+        }
+      },
+      {
+        "id": "行_c1",
+        "char": "亍",
+        "label": "paso (der.)",
+        "label_en": "step (right)",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.35,
+          "y": 0,
+          "w": 0.65,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "帰": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "帰_c0",
+        "char": "刂",
+        "label": "espada",
+        "label_en": "sword",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.15,
+          "h": 1
+        }
+      },
+      {
+        "id": "帰_c1",
+        "char": "帚",
+        "label": "escoba",
+        "label_en": "broom",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.15,
+          "y": 0,
+          "w": 0.85,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "来": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "来_c0",
+        "char": "来",
+        "label": "来",
+        "label_en": "来",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "食": {
+    "layout": "⿱",
+    "components": [
+      {
+        "id": "食_c0",
+        "char": "人",
+        "label": "persona",
+        "label_en": "person",
+        "slot_id": "top",
+        "order_index": 0,
+        "bounds": {
+          "x": 0.15,
+          "y": 0,
+          "w": 0.7,
+          "h": 0.35
+        }
+      },
+      {
+        "id": "食_c1",
+        "char": "良",
+        "label": "bueno",
+        "label_en": "good",
+        "slot_id": "bottom",
+        "order_index": 1,
+        "bounds": {
+          "x": 0,
+          "y": 0.35,
+          "w": 1,
+          "h": 0.65
+        }
+      }
+    ]
+  },
+  "飲": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "飲_c0",
+        "char": "飠",
+        "label": "comida",
+        "label_en": "food",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.45,
+          "h": 1
+        }
+      },
+      {
+        "id": "飲_c1",
+        "char": "欠",
+        "label": "falta",
+        "label_en": "lack",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.45,
+          "y": 0,
+          "w": 0.55,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "見": {
+    "layout": "⿱",
+    "components": [
+      {
+        "id": "見_c0",
+        "char": "目",
+        "label": "ojo",
+        "label_en": "eye",
+        "slot_id": "top",
+        "order_index": 0,
+        "bounds": {
+          "x": 0.1,
+          "y": 0,
+          "w": 0.8,
+          "h": 0.6
+        }
+      },
+      {
+        "id": "見_c1",
+        "char": "儿",
+        "label": "piernas",
+        "label_en": "legs",
+        "slot_id": "bottom",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.15,
+          "y": 0.6,
+          "w": 0.7,
+          "h": 0.4
+        }
+      }
+    ]
+  },
+  "聞": {
+    "layout": "⿴",
+    "components": [
+      {
+        "id": "聞_c0",
+        "char": "門",
+        "label": "puerta",
+        "label_en": "gate",
+        "slot_id": "outer",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      },
+      {
+        "id": "聞_c1",
+        "char": "耳",
+        "label": "oreja",
+        "label_en": "ear",
+        "slot_id": "inner",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.25,
+          "y": 0.25,
+          "w": 0.5,
+          "h": 0.5
+        }
+      }
+    ]
+  },
+  "読": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "読_c0",
+        "char": "言",
+        "label": "decir",
+        "label_en": "say",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.4,
+          "h": 1
+        }
+      },
+      {
+        "id": "読_c1",
+        "char": "売",
+        "label": "vender",
+        "label_en": "sell",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.4,
+          "y": 0,
+          "w": 0.6,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "書": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "書_c0",
+        "char": "書",
+        "label": "書",
+        "label_en": "書",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "話": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "話_c0",
+        "char": "言",
+        "label": "decir",
+        "label_en": "say",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.4,
+          "h": 1
+        }
+      },
+      {
+        "id": "話_c1",
+        "char": "舌",
+        "label": "lengua",
+        "label_en": "tongue",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.4,
+          "y": 0,
+          "w": 0.6,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "買": {
+    "layout": "⿱",
+    "components": [
+      {
+        "id": "買_c0",
+        "char": "罒",
+        "label": "red",
+        "label_en": "net",
+        "slot_id": "top",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.4
+        }
+      },
+      {
+        "id": "買_c1",
+        "char": "貝",
+        "label": "concha",
+        "label_en": "shellfish",
+        "slot_id": "bottom",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.1,
+          "y": 0.4,
+          "w": 0.8,
+          "h": 0.6
+        }
+      }
+    ]
+  },
+  "教": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "教_c0",
+        "char": "孝",
+        "label": "piedad filial",
+        "label_en": "filial piety",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.55,
+          "h": 1
+        }
+      },
+      {
+        "id": "教_c1",
+        "char": "攵",
+        "label": "golpear",
+        "label_en": "strike",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.55,
+          "y": 0,
+          "w": 0.45,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "朝": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "朝_c0",
+        "char": "龺",
+        "label": "diez con tapa",
+        "label_en": "ten with lid",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.5,
+          "h": 1
+        }
+      },
+      {
+        "id": "朝_c1",
+        "char": "月",
+        "label": "luna",
+        "label_en": "moon",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.5,
+          "y": 0,
+          "w": 0.5,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "晩": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "晩_c0",
+        "char": "日",
+        "label": "sol",
+        "label_en": "sun",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.4,
+          "h": 1
+        }
+      },
+      {
+        "id": "晩_c1",
+        "char": "免",
+        "label": "exento",
+        "label_en": "exempt",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.4,
+          "y": 0,
+          "w": 0.6,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "昼": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "昼_c0",
+        "char": "昼",
+        "label": "昼",
+        "label_en": "昼",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "夜": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "夜_c0",
+        "char": "夜",
+        "label": "夜",
+        "label_en": "夜",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "夕": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "夕_c0",
+        "char": "夕",
+        "label": "atardecer",
+        "label_en": "evening",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "方": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "方_c0",
+        "char": "方",
+        "label": "dirección",
+        "label_en": "way",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "午": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "午_c0",
+        "char": "午",
+        "label": "午",
+        "label_en": "午",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "前": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "前_c0",
+        "char": "前",
+        "label": "前",
+        "label_en": "前",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "後": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "後_c0",
+        "char": "後",
+        "label": "後",
+        "label_en": "後",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "毎": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "毎_c0",
+        "char": "毎",
+        "label": "cada",
+        "label_en": "every",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "週": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "週_c0",
+        "char": "週",
+        "label": "週",
+        "label_en": "週",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "曜": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "曜_c0",
+        "char": "日",
+        "label": "sol",
+        "label_en": "sun",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.35,
+          "h": 1
+        }
+      },
+      {
+        "id": "曜_c1",
+        "char": "翟",
+        "label": "faisán",
+        "label_en": "pheasant",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.35,
+          "y": 0,
+          "w": 0.65,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "作": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "作_c0",
+        "char": "亻",
+        "label": "persona",
+        "label_en": "person",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.3,
+          "h": 1
+        }
+      },
+      {
+        "id": "作_c1",
+        "char": "乍",
+        "label": "aunque",
+        "label_en": "although",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.3,
+          "y": 0,
+          "w": 0.7,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "泳": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "泳_c0",
+        "char": "氵",
+        "label": "agua",
+        "label_en": "water",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.3,
+          "h": 1
+        }
+      },
+      {
+        "id": "泳_c1",
+        "char": "永",
+        "label": "eterno",
+        "label_en": "eternal",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.3,
+          "y": 0,
+          "w": 0.7,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "油": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "油_c0",
+        "char": "氵",
+        "label": "agua",
+        "label_en": "water",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.3,
+          "h": 1
+        }
+      },
+      {
+        "id": "油_c1",
+        "char": "由",
+        "label": "razón",
+        "label_en": "reason",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.3,
+          "y": 0,
+          "w": 0.7,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "海": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "海_c0",
+        "char": "氵",
+        "label": "agua",
+        "label_en": "water",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.3,
+          "h": 1
+        }
+      },
+      {
+        "id": "海_c1",
+        "char": "毎",
+        "label": "cada",
+        "label_en": "every",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.3,
+          "y": 0,
+          "w": 0.7,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "酒": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "酒_c0",
+        "char": "氵",
+        "label": "agua",
+        "label_en": "water",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.3,
+          "h": 1
+        }
+      },
+      {
+        "id": "酒_c1",
+        "char": "酉",
+        "label": "jarra de sake",
+        "label_en": "sake jar",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.3,
+          "y": 0,
+          "w": 0.7,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "待": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "待_c0",
+        "char": "彳",
+        "label": "paso",
+        "label_en": "step",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.35,
+          "h": 1
+        }
+      },
+      {
+        "id": "待_c1",
+        "char": "寺",
+        "label": "templo",
+        "label_en": "temple",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.35,
+          "y": 0,
+          "w": 0.65,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "校": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "校_c0",
+        "char": "木",
+        "label": "árbol",
+        "label_en": "tree",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.4,
+          "h": 1
+        }
+      },
+      {
+        "id": "校_c1",
+        "char": "交",
+        "label": "mezclar",
+        "label_en": "mix",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.4,
+          "y": 0,
+          "w": 0.6,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "時": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "時_c0",
+        "char": "日",
+        "label": "sol",
+        "label_en": "sun",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.4,
+          "h": 1
+        }
+      },
+      {
+        "id": "時_c1",
+        "char": "寺",
+        "label": "templo",
+        "label_en": "temple",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.4,
+          "y": 0,
+          "w": 0.6,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "言": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "言_c0",
+        "char": "言",
+        "label": "decir",
+        "label_en": "say",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "計": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "計_c0",
+        "char": "言",
+        "label": "decir",
+        "label_en": "say",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.4,
+          "h": 1
+        }
+      },
+      {
+        "id": "計_c1",
+        "char": "十",
+        "label": "diez",
+        "label_en": "ten",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.4,
+          "y": 0,
+          "w": 0.6,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "語": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "語_c0",
+        "char": "言",
+        "label": "decir",
+        "label_en": "say",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.4,
+          "h": 1
+        }
+      },
+      {
+        "id": "語_c1",
+        "char": "吾",
+        "label": "yo (arcaico)",
+        "label_en": "I (archaic)",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.4,
+          "y": 0,
+          "w": 0.6,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "飯": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "飯_c0",
+        "char": "飯",
+        "label": "飯",
+        "label_en": "飯",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "宅": {
+    "layout": "⿱",
+    "components": [
+      {
+        "id": "宅_c0",
+        "char": "宀",
+        "label": "techo",
+        "label_en": "roof",
+        "slot_id": "top",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.35
+        }
+      },
+      {
+        "id": "宅_c1",
+        "char": "乇",
+        "label": "brote",
+        "label_en": "sprout",
+        "slot_id": "bottom",
+        "order_index": 1,
+        "bounds": {
+          "x": 0,
+          "y": 0.35,
+          "w": 1,
+          "h": 0.65
+        }
+      }
+    ]
+  },
+  "客": {
+    "layout": "⿱",
+    "components": [
+      {
+        "id": "客_c0",
+        "char": "宀",
+        "label": "techo",
+        "label_en": "roof",
+        "slot_id": "top",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.35
+        }
+      },
+      {
+        "id": "客_c1",
+        "char": "各",
+        "label": "cada",
+        "label_en": "each",
+        "slot_id": "bottom",
+        "order_index": 1,
+        "bounds": {
+          "x": 0,
+          "y": 0.35,
+          "w": 1,
+          "h": 0.65
+        }
+      }
+    ]
+  },
+  "室": {
+    "layout": "⿱",
+    "components": [
+      {
+        "id": "室_c0",
+        "char": "宀",
+        "label": "techo",
+        "label_en": "roof",
+        "slot_id": "top",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.35
+        }
+      },
+      {
+        "id": "室_c1",
+        "char": "至",
+        "label": "alcanzar",
+        "label_en": "reach",
+        "slot_id": "bottom",
+        "order_index": 1,
+        "bounds": {
+          "x": 0,
+          "y": 0.35,
+          "w": 1,
+          "h": 0.65
+        }
+      }
+    ]
+  },
+  "家": {
+    "layout": "⿱",
+    "components": [
+      {
+        "id": "家_c0",
+        "char": "宀",
+        "label": "techo",
+        "label_en": "roof",
+        "slot_id": "top",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.3
+        }
+      },
+      {
+        "id": "家_c1",
+        "char": "豕",
+        "label": "cerdo",
+        "label_en": "pig",
+        "slot_id": "bottom",
+        "order_index": 1,
+        "bounds": {
+          "x": 0,
+          "y": 0.3,
+          "w": 1,
+          "h": 0.7
+        }
+      }
+    ]
+  },
+  "英": {
+    "layout": "⿱",
+    "components": [
+      {
+        "id": "英_c0",
+        "char": "艹",
+        "label": "hierba",
+        "label_en": "grass",
+        "slot_id": "top",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.25
+        }
+      },
+      {
+        "id": "英_c1",
+        "char": "央",
+        "label": "centro",
+        "label_en": "center",
+        "slot_id": "bottom",
+        "order_index": 1,
+        "bounds": {
+          "x": 0,
+          "y": 0.25,
+          "w": 1,
+          "h": 0.75
+        }
+      }
+    ]
+  },
+  "薬": {
+    "layout": "⿱",
+    "components": [
+      {
+        "id": "薬_c0",
+        "char": "艹",
+        "label": "hierba",
+        "label_en": "grass",
+        "slot_id": "top",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.2
+        }
+      },
+      {
+        "id": "薬_c1",
+        "char": "楽",
+        "label": "placer",
+        "label_en": "pleasure",
+        "slot_id": "bottom",
+        "order_index": 1,
+        "bounds": {
+          "x": 0,
+          "y": 0.2,
+          "w": 1,
+          "h": 0.8
+        }
+      }
+    ]
+  },
+  "会": {
+    "layout": "⿱",
+    "components": [
+      {
+        "id": "会_c0",
+        "char": "人",
+        "label": "persona",
+        "label_en": "person",
+        "slot_id": "top",
+        "order_index": 0,
+        "bounds": {
+          "x": 0.2,
+          "y": 0,
+          "w": 0.6,
+          "h": 0.35
+        }
+      },
+      {
+        "id": "会_c1",
+        "char": "云",
+        "label": "decir",
+        "label_en": "say",
+        "slot_id": "bottom",
+        "order_index": 1,
+        "bounds": {
+          "x": 0,
+          "y": 0.35,
+          "w": 1,
+          "h": 0.65
+        }
+      }
+    ]
+  },
+  "今": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "今_c0",
+        "char": "今",
+        "label": "今",
+        "label_en": "今",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "雪": {
+    "layout": "⿱",
+    "components": [
+      {
+        "id": "雪_c0",
+        "char": "雨",
+        "label": "lluvia",
+        "label_en": "rain",
+        "slot_id": "top",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.55
+        }
+      },
+      {
+        "id": "雪_c1",
+        "char": "ヨ",
+        "label": "hocico",
+        "label_en": "snout",
+        "slot_id": "bottom",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.2,
+          "y": 0.55,
+          "w": 0.6,
+          "h": 0.45
+        }
+      }
+    ]
+  },
+  "雲": {
+    "layout": "⿱",
+    "components": [
+      {
+        "id": "雲_c0",
+        "char": "雨",
+        "label": "lluvia",
+        "label_en": "rain",
+        "slot_id": "top",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.5
+        }
+      },
+      {
+        "id": "雲_c1",
+        "char": "云",
+        "label": "decir",
+        "label_en": "say",
+        "slot_id": "bottom",
+        "order_index": 1,
+        "bounds": {
+          "x": 0,
+          "y": 0.5,
+          "w": 1,
+          "h": 0.5
+        }
+      }
+    ]
+  },
+  "電": {
+    "layout": "⿱",
+    "components": [
+      {
+        "id": "電_c0",
+        "char": "雨",
+        "label": "lluvia",
+        "label_en": "rain",
+        "slot_id": "top",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.45
+        }
+      },
+      {
+        "id": "電_c1",
+        "char": "電",
+        "label": "electricidad",
+        "label_en": "electricity",
+        "slot_id": "bottom",
+        "order_index": 1,
+        "bounds": {
+          "x": 0,
+          "y": 0.45,
+          "w": 1,
+          "h": 0.55
+        }
+      }
+    ]
+  },
+  "売": {
+    "layout": "⿱",
+    "components": [
+      {
+        "id": "売_c0",
+        "char": "士",
+        "label": "samurái",
+        "label_en": "samurai",
+        "slot_id": "top",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.4
+        }
+      },
+      {
+        "id": "売_c1",
+        "char": "儿",
+        "label": "piernas",
+        "label_en": "legs",
+        "slot_id": "bottom",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.15,
+          "y": 0.4,
+          "w": 0.7,
+          "h": 0.6
+        }
+      }
+    ]
+  },
+  "広": {
+    "layout": "⿸",
+    "components": [
+      {
+        "id": "広_c0",
+        "char": "广",
+        "label": "acantilado",
+        "label_en": "cliff",
+        "slot_id": "outer",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      },
+      {
+        "id": "広_c1",
+        "char": "ム",
+        "label": "privado",
+        "label_en": "private",
+        "slot_id": "inner",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.3,
+          "y": 0.4,
+          "w": 0.5,
+          "h": 0.5
+        }
+      }
+    ]
+  },
+  "店": {
+    "layout": "⿸",
+    "components": [
+      {
+        "id": "店_c0",
+        "char": "广",
+        "label": "acantilado",
+        "label_en": "cliff",
+        "slot_id": "outer",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      },
+      {
+        "id": "店_c1",
+        "char": "占",
+        "label": "ocupar",
+        "label_en": "occupy",
+        "slot_id": "inner",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.25,
+          "y": 0.4,
+          "w": 0.6,
+          "h": 0.55
+        }
+      }
+    ]
+  },
+  "度": {
+    "layout": "⿸",
+    "components": [
+      {
+        "id": "度_c0",
+        "char": "广",
+        "label": "acantilado",
+        "label_en": "cliff",
+        "slot_id": "outer",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      },
+      {
+        "id": "度_c1",
+        "char": "廿",
+        "label": "veinte",
+        "label_en": "twenty",
+        "slot_id": "inner",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.2,
+          "y": 0.35,
+          "w": 0.65,
+          "h": 0.6
+        }
+      }
+    ]
+  },
+  "病": {
+    "layout": "⿸",
+    "components": [
+      {
+        "id": "病_c0",
+        "char": "疒",
+        "label": "enfermedad",
+        "label_en": "illness",
+        "slot_id": "outer",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      },
+      {
+        "id": "病_c1",
+        "char": "丙",
+        "label": "tercero",
+        "label_en": "third",
+        "slot_id": "inner",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.25,
+          "y": 0.35,
+          "w": 0.65,
+          "h": 0.6
+        }
+      }
+    ]
+  },
+  "疲": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "疲_c0",
+        "char": "疲",
+        "label": "疲",
+        "label_en": "疲",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "痛": {
+    "layout": "⿸",
+    "components": [
+      {
+        "id": "痛_c0",
+        "char": "疒",
+        "label": "enfermedad",
+        "label_en": "illness",
+        "slot_id": "outer",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      },
+      {
+        "id": "痛_c1",
+        "char": "甬",
+        "label": "camino",
+        "label_en": "path",
+        "slot_id": "inner",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.25,
+          "y": 0.35,
+          "w": 0.65,
+          "h": 0.6
+        }
+      }
+    ]
+  },
+  "屋": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "屋_c0",
+        "char": "屋",
+        "label": "屋",
+        "label_en": "屋",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "国": {
+    "layout": "⿴",
+    "components": [
+      {
+        "id": "国_c0",
+        "char": "囗",
+        "label": "recinto",
+        "label_en": "enclosure",
+        "slot_id": "outer",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      },
+      {
+        "id": "国_c1",
+        "char": "玉",
+        "label": "joya",
+        "label_en": "jewel",
+        "slot_id": "inner",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.2,
+          "y": 0.2,
+          "w": 0.6,
+          "h": 0.6
+        }
+      }
+    ]
+  },
+  "回": {
+    "layout": "⿴",
+    "components": [
+      {
+        "id": "回_c0",
+        "char": "囗",
+        "label": "recinto",
+        "label_en": "enclosure",
+        "slot_id": "outer",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      },
+      {
+        "id": "回_c1",
+        "char": "口",
+        "label": "boca",
+        "label_en": "mouth",
+        "slot_id": "inner",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.25,
+          "y": 0.25,
+          "w": 0.5,
+          "h": 0.5
+        }
+      }
+    ]
+  },
+  "困": {
+    "layout": "⿴",
+    "components": [
+      {
+        "id": "困_c0",
+        "char": "囗",
+        "label": "recinto",
+        "label_en": "enclosure",
+        "slot_id": "outer",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      },
+      {
+        "id": "困_c1",
+        "char": "木",
+        "label": "árbol",
+        "label_en": "tree",
+        "slot_id": "inner",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.2,
+          "y": 0.2,
+          "w": 0.6,
+          "h": 0.6
+        }
+      }
+    ]
+  },
+  "開": {
+    "layout": "⿴",
+    "components": [
+      {
+        "id": "開_c0",
+        "char": "門",
+        "label": "puerta",
+        "label_en": "gate",
+        "slot_id": "outer",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      },
+      {
+        "id": "開_c1",
+        "char": "开",
+        "label": "abrir",
+        "label_en": "open",
+        "slot_id": "inner",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.25,
+          "y": 0.3,
+          "w": 0.5,
+          "h": 0.45
+        }
+      }
+    ]
+  },
+  "閉": {
+    "layout": "⿴",
+    "components": [
+      {
+        "id": "閉_c0",
+        "char": "門",
+        "label": "puerta",
+        "label_en": "gate",
+        "slot_id": "outer",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      },
+      {
+        "id": "閉_c1",
+        "char": "才",
+        "label": "talento",
+        "label_en": "talent",
+        "slot_id": "inner",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.25,
+          "y": 0.3,
+          "w": 0.5,
+          "h": 0.45
+        }
+      }
+    ]
+  },
+  "近": {
+    "layout": "⿺",
+    "components": [
+      {
+        "id": "近_c0",
+        "char": "辶",
+        "label": "movimiento",
+        "label_en": "movement",
+        "slot_id": "outer",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0.35,
+          "w": 1,
+          "h": 0.65
+        }
+      },
+      {
+        "id": "近_c1",
+        "char": "斤",
+        "label": "hacha",
+        "label_en": "axe",
+        "slot_id": "inner",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.2,
+          "y": 0,
+          "w": 0.7,
+          "h": 0.7
+        }
+      }
+    ]
+  },
+  "遠": {
+    "layout": "⿺",
+    "components": [
+      {
+        "id": "遠_c0",
+        "char": "辶",
+        "label": "movimiento",
+        "label_en": "movement",
+        "slot_id": "outer",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0.35,
+          "w": 1,
+          "h": 0.65
+        }
+      },
+      {
+        "id": "遠_c1",
+        "char": "袁",
+        "label": "túnica larga",
+        "label_en": "long robe",
+        "slot_id": "inner",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.2,
+          "y": 0,
+          "w": 0.7,
+          "h": 0.7
+        }
+      }
+    ]
+  },
+  "速": {
+    "layout": "⿺",
+    "components": [
+      {
+        "id": "速_c0",
+        "char": "辶",
+        "label": "movimiento",
+        "label_en": "movement",
+        "slot_id": "outer",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0.35,
+          "w": 1,
+          "h": 0.65
+        }
+      },
+      {
+        "id": "速_c1",
+        "char": "束",
+        "label": "manojo",
+        "label_en": "bundle",
+        "slot_id": "inner",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.2,
+          "y": 0,
+          "w": 0.7,
+          "h": 0.7
+        }
+      }
+    ]
+  },
+  "遅": {
+    "layout": "⿺",
+    "components": [
+      {
+        "id": "遅_c0",
+        "char": "辶",
+        "label": "movimiento",
+        "label_en": "movement",
+        "slot_id": "outer",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0.35,
+          "w": 1,
+          "h": 0.65
+        }
+      },
+      {
+        "id": "遅_c1",
+        "char": "犀",
+        "label": "rinoceronte",
+        "label_en": "rhinoceros",
+        "slot_id": "inner",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.2,
+          "y": 0,
+          "w": 0.7,
+          "h": 0.7
+        }
+      }
+    ]
+  },
+  "道": {
+    "layout": "⿺",
+    "components": [
+      {
+        "id": "道_c0",
+        "char": "辶",
+        "label": "movimiento",
+        "label_en": "movement",
+        "slot_id": "outer",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0.35,
+          "w": 1,
+          "h": 0.65
+        }
+      },
+      {
+        "id": "道_c1",
+        "char": "首",
+        "label": "cabeza",
+        "label_en": "head",
+        "slot_id": "inner",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.2,
+          "y": 0,
+          "w": 0.7,
+          "h": 0.7
+        }
+      }
+    ]
+  },
+  "青": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "青_c0",
+        "char": "青",
+        "label": "azul",
+        "label_en": "blue",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "晴": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "晴_c0",
+        "char": "日",
+        "label": "sol",
+        "label_en": "sun",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.4,
+          "h": 1
+        }
+      },
+      {
+        "id": "晴_c1",
+        "char": "青",
+        "label": "azul",
+        "label_en": "blue",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.4,
+          "y": 0,
+          "w": 0.6,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "静": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "静_c0",
+        "char": "青",
+        "label": "azul",
+        "label_en": "blue",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.5,
+          "h": 1
+        }
+      },
+      {
+        "id": "静_c1",
+        "char": "争",
+        "label": "conflicto",
+        "label_en": "conflict",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.5,
+          "y": 0,
+          "w": 0.5,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "寺": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "寺_c0",
+        "char": "寺",
+        "label": "templo",
+        "label_en": "temple",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "持": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "持_c0",
+        "char": "扌",
+        "label": "mano",
+        "label_en": "hand",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.3,
+          "h": 1
+        }
+      },
+      {
+        "id": "持_c1",
+        "char": "寺",
+        "label": "templo",
+        "label_en": "temple",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.3,
+          "y": 0,
+          "w": 0.7,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "荷": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "荷_c0",
+        "char": "荷",
+        "label": "荷",
+        "label_en": "荷",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "歌": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "歌_c0",
+        "char": "可",
+        "label": "posible",
+        "label_en": "possible",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.5,
+          "h": 1
+        }
+      },
+      {
+        "id": "歌_c1",
+        "char": "欠",
+        "label": "falta",
+        "label_en": "lack",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.5,
+          "y": 0,
+          "w": 0.5,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "母": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "母_c0",
+        "char": "母",
+        "label": "madre",
+        "label_en": "mother",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "父": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "父_c0",
+        "char": "父",
+        "label": "padre",
+        "label_en": "father",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "兄": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "兄_c0",
+        "char": "兄",
+        "label": "兄",
+        "label_en": "兄",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "姉": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "姉_c0",
+        "char": "姉",
+        "label": "姉",
+        "label_en": "姉",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "友": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "友_c0",
+        "char": "友",
+        "label": "友",
+        "label_en": "友",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "弟": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "弟_c0",
+        "char": "弟",
+        "label": "弟",
+        "label_en": "弟",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "妹": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "妹_c0",
+        "char": "妹",
+        "label": "妹",
+        "label_en": "妹",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "夫": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "夫_c0",
+        "char": "夫",
+        "label": "夫",
+        "label_en": "夫",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "妻": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "妻_c0",
+        "char": "妻",
+        "label": "妻",
+        "label_en": "妻",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "彼": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "彼_c0",
+        "char": "彼",
+        "label": "彼",
+        "label_en": "彼",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "主": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "主_c0",
+        "char": "主",
+        "label": "maestro",
+        "label_en": "master",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "奥": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "奥_c0",
+        "char": "奥",
+        "label": "奥",
+        "label_en": "奥",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "元": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "元_c0",
+        "char": "元",
+        "label": "元",
+        "label_en": "元",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "気": {
+    "layout": "⿱",
+    "components": [
+      {
+        "id": "気_c0",
+        "char": "气",
+        "label": "aire",
+        "label_en": "air",
+        "slot_id": "outer",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.6
+        }
+      },
+      {
+        "id": "気_c1",
+        "char": "〆",
+        "label": "cierre",
+        "label_en": "closing",
+        "slot_id": "inner",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.2,
+          "y": 0.4,
+          "w": 0.6,
+          "h": 0.6
+        }
+      }
+    ]
+  },
+  "有": {
+    "layout": "⿱",
+    "components": [
+      {
+        "id": "有_c0",
+        "char": "十",
+        "label": "diez",
+        "label_en": "ten",
+        "slot_id": "top",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.35
+        }
+      },
+      {
+        "id": "有_c1",
+        "char": "月",
+        "label": "luna",
+        "label_en": "moon",
+        "slot_id": "bottom",
+        "order_index": 1,
+        "bounds": {
+          "x": 0,
+          "y": 0.35,
+          "w": 1,
+          "h": 0.65
+        }
+      }
+    ]
+  },
+  "名": {
+    "layout": "⿱",
+    "components": [
+      {
+        "id": "名_c0",
+        "char": "夕",
+        "label": "atardecer",
+        "label_en": "evening",
+        "slot_id": "top",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.45
+        }
+      },
+      {
+        "id": "名_c1",
+        "char": "口",
+        "label": "boca",
+        "label_en": "mouth",
+        "slot_id": "bottom",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.15,
+          "y": 0.45,
+          "w": 0.7,
+          "h": 0.55
+        }
+      }
+    ]
+  },
+  "親": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "親_c0",
+        "char": "辛",
+        "label": "amargo",
+        "label_en": "bitter",
+        "slot_id": "left-top",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.5,
+          "h": 0.5
+        }
+      },
+      {
+        "id": "親_c1",
+        "char": "木",
+        "label": "árbol",
+        "label_en": "tree",
+        "slot_id": "left-bot",
+        "order_index": 1,
+        "bounds": {
+          "x": 0,
+          "y": 0.5,
+          "w": 0.5,
+          "h": 0.5
+        }
+      },
+      {
+        "id": "親_c2",
+        "char": "見",
+        "label": "ver",
+        "label_en": "see",
+        "slot_id": "right",
+        "order_index": 2,
+        "bounds": {
+          "x": 0.5,
+          "y": 0,
+          "w": 0.5,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "切": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "切_c0",
+        "char": "七",
+        "label": "siete",
+        "label_en": "seven",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.5,
+          "h": 1
+        }
+      },
+      {
+        "id": "切_c1",
+        "char": "刀",
+        "label": "espada",
+        "label_en": "sword",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.5,
+          "y": 0,
+          "w": 0.5,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "便": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "便_c0",
+        "char": "亻",
+        "label": "persona",
+        "label_en": "person",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.3,
+          "h": 1
+        }
+      },
+      {
+        "id": "便_c1",
+        "char": "更",
+        "label": "renovar",
+        "label_en": "renew",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.3,
+          "y": 0,
+          "w": 0.7,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "利": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "利_c0",
+        "char": "禾",
+        "label": "grano",
+        "label_en": "grain",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.55,
+          "h": 1
+        }
+      },
+      {
+        "id": "利_c1",
+        "char": "刂",
+        "label": "espada",
+        "label_en": "sword",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.55,
+          "y": 0,
+          "w": 0.45,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "不": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "不_c0",
+        "char": "不",
+        "label": "不",
+        "label_en": "不",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "若": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "若_c0",
+        "char": "若",
+        "label": "若",
+        "label_en": "若",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "早": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "早_c0",
+        "char": "早",
+        "label": "早",
+        "label_en": "早",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "忙": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "忙_c0",
+        "char": "忙",
+        "label": "忙",
+        "label_en": "忙",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "出": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "出_c0",
+        "char": "出",
+        "label": "出",
+        "label_en": "出",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "入": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "入_c0",
+        "char": "入",
+        "label": "entrar",
+        "label_en": "enter",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "乗": {
+    "layout": "⿱",
+    "components": [
+      {
+        "id": "乗_c0",
+        "char": "禾",
+        "label": "grano",
+        "label_en": "grain",
+        "slot_id": "top",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.55
+        }
+      },
+      {
+        "id": "乗_c1",
+        "char": "木",
+        "label": "árbol",
+        "label_en": "tree",
+        "slot_id": "bottom",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.1,
+          "y": 0.55,
+          "w": 0.8,
+          "h": 0.45
+        }
+      }
+    ]
+  },
+  "降": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "降_c0",
+        "char": "阝",
+        "label": "colina",
+        "label_en": "hill",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.2,
+          "h": 1
+        }
+      },
+      {
+        "id": "降_c1",
+        "char": "夅",
+        "label": "descender",
+        "label_en": "descend",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.2,
+          "y": 0,
+          "w": 0.8,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "着": {
+    "layout": "⿱",
+    "components": [
+      {
+        "id": "着_c0",
+        "char": "羊",
+        "label": "oveja",
+        "label_en": "sheep",
+        "slot_id": "top",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.45
+        }
+      },
+      {
+        "id": "着_c1",
+        "char": "目",
+        "label": "ojo",
+        "label_en": "eye",
+        "slot_id": "bottom",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.1,
+          "y": 0.45,
+          "w": 0.8,
+          "h": 0.55
+        }
+      }
+    ]
+  },
+  "渡": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "渡_c0",
+        "char": "氵",
+        "label": "agua",
+        "label_en": "water",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.3,
+          "h": 1
+        }
+      },
+      {
+        "id": "渡_c1",
+        "char": "度",
+        "label": "grado",
+        "label_en": "degree",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.3,
+          "y": 0,
+          "w": 0.7,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "通": {
+    "layout": "⿺",
+    "components": [
+      {
+        "id": "通_c0",
+        "char": "辶",
+        "label": "movimiento",
+        "label_en": "movement",
+        "slot_id": "outer",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0.35,
+          "w": 1,
+          "h": 0.65
+        }
+      },
+      {
+        "id": "通_c1",
+        "char": "甬",
+        "label": "camino",
+        "label_en": "path",
+        "slot_id": "inner",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.2,
+          "y": 0,
+          "w": 0.7,
+          "h": 0.7
+        }
+      }
+    ]
+  },
+  "走": {
+    "layout": "⿱",
+    "components": [
+      {
+        "id": "走_c0",
+        "char": "土",
+        "label": "tierra",
+        "label_en": "ground",
+        "slot_id": "top",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.45
+        }
+      },
+      {
+        "id": "走_c1",
+        "char": "𧺆",
+        "label": "correr",
+        "label_en": "run",
+        "slot_id": "bottom",
+        "order_index": 1,
+        "bounds": {
+          "x": 0,
+          "y": 0.45,
+          "w": 1,
+          "h": 0.55
+        }
+      }
+    ]
+  },
+  "歩": {
+    "layout": "⿱",
+    "components": [
+      {
+        "id": "歩_c0",
+        "char": "止",
+        "label": "parar",
+        "label_en": "stop",
+        "slot_id": "top",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.45
+        }
+      },
+      {
+        "id": "歩_c1",
+        "char": "少",
+        "label": "poco",
+        "label_en": "few",
+        "slot_id": "bottom",
+        "order_index": 1,
+        "bounds": {
+          "x": 0,
+          "y": 0.45,
+          "w": 1,
+          "h": 0.55
+        }
+      }
+    ]
+  },
+  "止": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "止_c0",
+        "char": "止",
+        "label": "parar",
+        "label_en": "stop",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "動": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "動_c0",
+        "char": "重",
+        "label": "pesado",
+        "label_en": "heavy",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.55,
+          "h": 1
+        }
+      },
+      {
+        "id": "動_c1",
+        "char": "力",
+        "label": "fuerza",
+        "label_en": "effort",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.55,
+          "y": 0,
+          "w": 0.45,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "働": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "働_c0",
+        "char": "亻",
+        "label": "persona",
+        "label_en": "person",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.25,
+          "h": 1
+        }
+      },
+      {
+        "id": "働_c1",
+        "char": "動",
+        "label": "movimiento",
+        "label_en": "motion",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.25,
+          "y": 0,
+          "w": 0.75,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "右": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "右_c0",
+        "char": "右",
+        "label": "右",
+        "label_en": "右",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "左": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "左_c0",
+        "char": "左",
+        "label": "左",
+        "label_en": "左",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "東": {
+    "layout": "⿱",
+    "components": [
+      {
+        "id": "東_c0",
+        "char": "木",
+        "label": "árbol",
+        "label_en": "tree",
+        "slot_id": "frame",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      },
+      {
+        "id": "東_c1",
+        "char": "日",
+        "label": "sol",
+        "label_en": "sun",
+        "slot_id": "inner",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.2,
+          "y": 0.2,
+          "w": 0.6,
+          "h": 0.45
+        }
+      }
+    ]
+  },
+  "西": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "西_c0",
+        "char": "西",
+        "label": "西",
+        "label_en": "西",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "北": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "北_c0",
+        "char": "北",
+        "label": "北",
+        "label_en": "北",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "南": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "南_c0",
+        "char": "南",
+        "label": "南",
+        "label_en": "南",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "外": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "外_c0",
+        "char": "外",
+        "label": "外",
+        "label_en": "外",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "内": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "内_c0",
+        "char": "内",
+        "label": "内",
+        "label_en": "内",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "部": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "部_c0",
+        "char": "部",
+        "label": "部",
+        "label_en": "部",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "駅": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "駅_c0",
+        "char": "馬",
+        "label": "caballo",
+        "label_en": "horse",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.5,
+          "h": 1
+        }
+      },
+      {
+        "id": "駅_c1",
+        "char": "尺",
+        "label": "medida",
+        "label_en": "measure",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.5,
+          "y": 0,
+          "w": 0.5,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "社": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "社_c0",
+        "char": "礻",
+        "label": "altar",
+        "label_en": "altar",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.35,
+          "h": 1
+        }
+      },
+      {
+        "id": "社_c1",
+        "char": "土",
+        "label": "tierra",
+        "label_en": "ground",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.35,
+          "y": 0,
+          "w": 0.65,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "院": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "院_c0",
+        "char": "阝",
+        "label": "colina",
+        "label_en": "hill",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.2,
+          "h": 1
+        }
+      },
+      {
+        "id": "院_c1",
+        "char": "完",
+        "label": "completo",
+        "label_en": "complete",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.2,
+          "y": 0,
+          "w": 0.8,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "地": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "地_c0",
+        "char": "土",
+        "label": "tierra",
+        "label_en": "ground",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.4,
+          "h": 1
+        }
+      },
+      {
+        "id": "地_c1",
+        "char": "也",
+        "label": "ser",
+        "label_en": "to be",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.4,
+          "y": 0,
+          "w": 0.6,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "鉄": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "鉄_c0",
+        "char": "金",
+        "label": "oro",
+        "label_en": "gold",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.45,
+          "h": 1
+        }
+      },
+      {
+        "id": "鉄_c1",
+        "char": "失",
+        "label": "perder",
+        "label_en": "lose",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.45,
+          "y": 0,
+          "w": 0.55,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "工": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "工_c0",
+        "char": "工",
+        "label": "trabajo",
+        "label_en": "work",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "場": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "場_c0",
+        "char": "土",
+        "label": "tierra",
+        "label_en": "ground",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.35,
+          "h": 1
+        }
+      },
+      {
+        "id": "場_c1",
+        "char": "昜",
+        "label": "brillante",
+        "label_en": "bright",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.35,
+          "y": 0,
+          "w": 0.65,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "図": {
+    "layout": "⿴",
+    "components": [
+      {
+        "id": "図_c0",
+        "char": "囗",
+        "label": "recinto",
+        "label_en": "enclosure",
+        "slot_id": "outer",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      },
+      {
+        "id": "図_c1",
+        "char": "㐅",
+        "label": "cruz",
+        "label_en": "cross",
+        "slot_id": "inner",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.2,
+          "y": 0.2,
+          "w": 0.6,
+          "h": 0.6
+        }
+      }
+    ]
+  },
+  "館": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "館_c0",
+        "char": "飠",
+        "label": "comida",
+        "label_en": "food",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.45,
+          "h": 1
+        }
+      },
+      {
+        "id": "館_c1",
+        "char": "官",
+        "label": "oficial",
+        "label_en": "official",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.45,
+          "y": 0,
+          "w": 0.55,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "公": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "公_c0",
+        "char": "公",
+        "label": "公",
+        "label_en": "公",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "園": {
+    "layout": "⿴",
+    "components": [
+      {
+        "id": "園_c0",
+        "char": "囗",
+        "label": "recinto",
+        "label_en": "enclosure",
+        "slot_id": "outer",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      },
+      {
+        "id": "園_c1",
+        "char": "袁",
+        "label": "túnica larga",
+        "label_en": "long robe",
+        "slot_id": "inner",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.15,
+          "y": 0.15,
+          "w": 0.7,
+          "h": 0.7
+        }
+      }
+    ]
+  },
+  "住": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "住_c0",
+        "char": "亻",
+        "label": "persona",
+        "label_en": "person",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.3,
+          "h": 1
+        }
+      },
+      {
+        "id": "住_c1",
+        "char": "主",
+        "label": "maestro",
+        "label_en": "master",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.3,
+          "y": 0,
+          "w": 0.7,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "所": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "所_c0",
+        "char": "所",
+        "label": "所",
+        "label_en": "所",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "番": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "番_c0",
+        "char": "番",
+        "label": "番",
+        "label_en": "番",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "号": {
+    "layout": "⿱",
+    "components": [
+      {
+        "id": "号_c0",
+        "char": "口",
+        "label": "boca",
+        "label_en": "mouth",
+        "slot_id": "top",
+        "order_index": 0,
+        "bounds": {
+          "x": 0.15,
+          "y": 0,
+          "w": 0.7,
+          "h": 0.5
+        }
+      },
+      {
+        "id": "号_c1",
+        "char": "丂",
+        "label": "alcanzar",
+        "label_en": "reach",
+        "slot_id": "bottom",
+        "order_index": 1,
+        "bounds": {
+          "x": 0,
+          "y": 0.5,
+          "w": 1,
+          "h": 0.5
+        }
+      }
+    ]
+  },
+  "市": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "市_c0",
+        "char": "市",
+        "label": "市",
+        "label_en": "市",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "町": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "町_c0",
+        "char": "町",
+        "label": "町",
+        "label_en": "町",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "村": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "村_c0",
+        "char": "村",
+        "label": "村",
+        "label_en": "村",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "区": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "区_c0",
+        "char": "区",
+        "label": "区",
+        "label_en": "区",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "都": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "都_c0",
+        "char": "都",
+        "label": "都",
+        "label_en": "都",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "府": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "府_c0",
+        "char": "府",
+        "label": "府",
+        "label_en": "府",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "県": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "県_c0",
+        "char": "県",
+        "label": "県",
+        "label_en": "県",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "島": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "島_c0",
+        "char": "島",
+        "label": "島",
+        "label_en": "島",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "京": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "京_c0",
+        "char": "京",
+        "label": "京",
+        "label_en": "京",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "様": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "様_c0",
+        "char": "様",
+        "label": "様",
+        "label_en": "様",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "練": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "練_c0",
+        "char": "糸",
+        "label": "hilo",
+        "label_en": "thread",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.4,
+          "h": 1
+        }
+      },
+      {
+        "id": "練_c1",
+        "char": "柬",
+        "label": "carta",
+        "label_en": "letter",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.4,
+          "y": 0,
+          "w": 0.6,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "習": {
+    "layout": "⿱",
+    "components": [
+      {
+        "id": "習_c0",
+        "char": "羽",
+        "label": "pluma",
+        "label_en": "feather",
+        "slot_id": "top",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.45
+        }
+      },
+      {
+        "id": "習_c1",
+        "char": "白",
+        "label": "blanco",
+        "label_en": "white",
+        "slot_id": "bottom",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.15,
+          "y": 0.45,
+          "w": 0.7,
+          "h": 0.55
+        }
+      }
+    ]
+  },
+  "勉": {
+    "layout": "⿺",
+    "components": [
+      {
+        "id": "勉_c0",
+        "char": "免",
+        "label": "exento",
+        "label_en": "exempt",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.65,
+          "h": 1
+        }
+      },
+      {
+        "id": "勉_c1",
+        "char": "力",
+        "label": "fuerza",
+        "label_en": "effort",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.65,
+          "y": 0.3,
+          "w": 0.35,
+          "h": 0.7
+        }
+      }
+    ]
+  },
+  "強": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "強_c0",
+        "char": "弓",
+        "label": "arco",
+        "label_en": "bow",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.4,
+          "h": 1
+        }
+      },
+      {
+        "id": "強_c1",
+        "char": "虽",
+        "label": "aunque",
+        "label_en": "although",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.4,
+          "y": 0,
+          "w": 0.6,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "研": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "研_c0",
+        "char": "石",
+        "label": "piedra",
+        "label_en": "stone",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.45,
+          "h": 1
+        }
+      },
+      {
+        "id": "研_c1",
+        "char": "开",
+        "label": "abrir",
+        "label_en": "open",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.45,
+          "y": 0,
+          "w": 0.55,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "究": {
+    "layout": "⿱",
+    "components": [
+      {
+        "id": "究_c0",
+        "char": "穴",
+        "label": "agujero",
+        "label_en": "hole",
+        "slot_id": "top",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.5
+        }
+      },
+      {
+        "id": "究_c1",
+        "char": "九",
+        "label": "nueve",
+        "label_en": "nine",
+        "slot_id": "bottom",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.15,
+          "y": 0.5,
+          "w": 0.7,
+          "h": 0.5
+        }
+      }
+    ]
+  },
+  "留": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "留_c0",
+        "char": "留",
+        "label": "留",
+        "label_en": "留",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "質": {
+    "layout": "⿱",
+    "components": [
+      {
+        "id": "質_c0",
+        "char": "斦",
+        "label": "dos hachas",
+        "label_en": "two axes",
+        "slot_id": "top",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.5
+        }
+      },
+      {
+        "id": "質_c1",
+        "char": "貝",
+        "label": "concha",
+        "label_en": "shellfish",
+        "slot_id": "bottom",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.1,
+          "y": 0.5,
+          "w": 0.8,
+          "h": 0.5
+        }
+      }
+    ]
+  },
+  "問": {
+    "layout": "⿴",
+    "components": [
+      {
+        "id": "問_c0",
+        "char": "門",
+        "label": "puerta",
+        "label_en": "gate",
+        "slot_id": "outer",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      },
+      {
+        "id": "問_c1",
+        "char": "口",
+        "label": "boca",
+        "label_en": "mouth",
+        "slot_id": "inner",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.3,
+          "y": 0.3,
+          "w": 0.4,
+          "h": 0.4
+        }
+      }
+    ]
+  },
+  "題": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "題_c0",
+        "char": "是",
+        "label": "correcto",
+        "label_en": "correct",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.55,
+          "h": 1
+        }
+      },
+      {
+        "id": "題_c1",
+        "char": "頁",
+        "label": "página",
+        "label_en": "page",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.55,
+          "y": 0,
+          "w": 0.45,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "答": {
+    "layout": "⿱",
+    "components": [
+      {
+        "id": "答_c0",
+        "char": "竹",
+        "label": "bambú",
+        "label_en": "bamboo",
+        "slot_id": "top",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.4
+        }
+      },
+      {
+        "id": "答_c1",
+        "char": "合",
+        "label": "encajar",
+        "label_en": "fit",
+        "slot_id": "bottom",
+        "order_index": 1,
+        "bounds": {
+          "x": 0,
+          "y": 0.4,
+          "w": 1,
+          "h": 0.6
+        }
+      }
+    ]
+  },
+  "宿": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "宿_c0",
+        "char": "宿",
+        "label": "宿",
+        "label_en": "宿",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "征": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "征_c0",
+        "char": "征",
+        "label": "征",
+        "label_en": "征",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "治": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "治_c0",
+        "char": "氵",
+        "label": "agua",
+        "label_en": "water",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.3,
+          "h": 1
+        }
+      },
+      {
+        "id": "治_c1",
+        "char": "台",
+        "label": "plataforma",
+        "label_en": "platform",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.3,
+          "y": 0,
+          "w": 0.7,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "経": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "経_c0",
+        "char": "糸",
+        "label": "hilo",
+        "label_en": "thread",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.4,
+          "h": 1
+        }
+      },
+      {
+        "id": "経_c1",
+        "char": "圣",
+        "label": "tierra otra vez",
+        "label_en": "ground again",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.4,
+          "y": 0,
+          "w": 0.6,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "済": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "済_c0",
+        "char": "氵",
+        "label": "agua",
+        "label_en": "water",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.3,
+          "h": 1
+        }
+      },
+      {
+        "id": "済_c1",
+        "char": "斉",
+        "label": "uniforme",
+        "label_en": "even",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.3,
+          "y": 0,
+          "w": 0.7,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "歴": {
+    "layout": "⿸",
+    "components": [
+      {
+        "id": "歴_c0",
+        "char": "厂",
+        "label": "acantilado",
+        "label_en": "cliff",
+        "slot_id": "outer",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      },
+      {
+        "id": "歴_c1",
+        "char": "秝",
+        "label": "muchos granos",
+        "label_en": "many grains",
+        "slot_id": "inner",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.15,
+          "y": 0.25,
+          "w": 0.75,
+          "h": 0.7
+        }
+      }
+    ]
+  },
+  "史": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "史_c0",
+        "char": "史",
+        "label": "史",
+        "label_en": "史",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "育": {
+    "layout": "⿱",
+    "components": [
+      {
+        "id": "育_c0",
+        "char": "亠",
+        "label": "tapa",
+        "label_en": "lid",
+        "slot_id": "top",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.35
+        }
+      },
+      {
+        "id": "育_c1",
+        "char": "月",
+        "label": "luna",
+        "label_en": "moon",
+        "slot_id": "bottom",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.1,
+          "y": 0.35,
+          "w": 0.8,
+          "h": 0.65
+        }
+      }
+    ]
+  },
+  "化": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "化_c0",
+        "char": "亻",
+        "label": "persona",
+        "label_en": "person",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.4,
+          "h": 1
+        }
+      },
+      {
+        "id": "化_c1",
+        "char": "匕",
+        "label": "cuchara",
+        "label_en": "spoon",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.4,
+          "y": 0,
+          "w": 0.6,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "理": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "理_c0",
+        "char": "王",
+        "label": "rey",
+        "label_en": "king",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.4,
+          "h": 1
+        }
+      },
+      {
+        "id": "理_c1",
+        "char": "里",
+        "label": "aldea",
+        "label_en": "village",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.4,
+          "y": 0,
+          "w": 0.6,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "科": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "科_c0",
+        "char": "禾",
+        "label": "grano",
+        "label_en": "grain",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.5,
+          "h": 1
+        }
+      },
+      {
+        "id": "科_c1",
+        "char": "斗",
+        "label": "cucharón",
+        "label_en": "dipper",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.5,
+          "y": 0,
+          "w": 0.5,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "数": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "数_c0",
+        "char": "婁",
+        "label": "mujer hueca",
+        "label_en": "woman hollow",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.55,
+          "h": 1
+        }
+      },
+      {
+        "id": "数_c1",
+        "char": "攵",
+        "label": "golpear",
+        "label_en": "strike",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.55,
+          "y": 0,
+          "w": 0.45,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "医": {
+    "layout": "⿸",
+    "components": [
+      {
+        "id": "医_c0",
+        "char": "匚",
+        "label": "caja",
+        "label_en": "box",
+        "slot_id": "outer",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      },
+      {
+        "id": "医_c1",
+        "char": "矢",
+        "label": "flecha",
+        "label_en": "arrow",
+        "slot_id": "inner",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.15,
+          "y": 0.15,
+          "w": 0.7,
+          "h": 0.75
+        }
+      }
+    ]
+  },
+  "映": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "映_c0",
+        "char": "日",
+        "label": "sol",
+        "label_en": "sun",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.4,
+          "h": 1
+        }
+      },
+      {
+        "id": "映_c1",
+        "char": "央",
+        "label": "centro",
+        "label_en": "center",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.4,
+          "y": 0,
+          "w": 0.6,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "画": {
+    "layout": "⿴",
+    "components": [
+      {
+        "id": "画_c0",
+        "char": "囗",
+        "label": "recinto",
+        "label_en": "enclosure",
+        "slot_id": "outer",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0.15,
+          "w": 1,
+          "h": 0.85
+        }
+      },
+      {
+        "id": "画_c1",
+        "char": "田",
+        "label": "arrozal",
+        "label_en": "rice field",
+        "slot_id": "inner",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.2,
+          "y": 0.3,
+          "w": 0.6,
+          "h": 0.5
+        }
+      }
+    ]
+  },
+  "写": {
+    "layout": "⿱",
+    "components": [
+      {
+        "id": "写_c0",
+        "char": "冖",
+        "label": "cubierta",
+        "label_en": "cover",
+        "slot_id": "top",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.3
+        }
+      },
+      {
+        "id": "写_c1",
+        "char": "与",
+        "label": "dar",
+        "label_en": "give",
+        "slot_id": "bottom",
+        "order_index": 1,
+        "bounds": {
+          "x": 0,
+          "y": 0.3,
+          "w": 1,
+          "h": 0.7
+        }
+      }
+    ]
+  },
+  "真": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "真_c0",
+        "char": "真",
+        "label": "真",
+        "label_en": "真",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "音": {
+    "layout": "⿱",
+    "components": [
+      {
+        "id": "音_c0",
+        "char": "立",
+        "label": "estar de pie",
+        "label_en": "stand",
+        "slot_id": "top",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.45
+        }
+      },
+      {
+        "id": "音_c1",
+        "char": "日",
+        "label": "sol",
+        "label_en": "sun",
+        "slot_id": "bottom",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.1,
+          "y": 0.45,
+          "w": 0.8,
+          "h": 0.55
+        }
+      }
+    ]
+  },
+  "楽": {
+    "layout": "⿱",
+    "components": [
+      {
+        "id": "楽_c0",
+        "char": "白",
+        "label": "blanco",
+        "label_en": "white",
+        "slot_id": "top",
+        "order_index": 0,
+        "bounds": {
+          "x": 0.2,
+          "y": 0,
+          "w": 0.6,
+          "h": 0.45
+        }
+      },
+      {
+        "id": "楽_c1",
+        "char": "木",
+        "label": "árbol",
+        "label_en": "tree",
+        "slot_id": "bottom",
+        "order_index": 1,
+        "bounds": {
+          "x": 0,
+          "y": 0.45,
+          "w": 1,
+          "h": 0.55
+        }
+      }
+    ]
+  },
+  "料": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "料_c0",
+        "char": "料",
+        "label": "料",
+        "label_en": "料",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "組": {
+    "layout": "⿰",
+    "components": [
+      {
+        "id": "組_c0",
+        "char": "糸",
+        "label": "hilo",
+        "label_en": "thread",
+        "slot_id": "left",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.4,
+          "h": 1
+        }
+      },
+      {
+        "id": "組_c1",
+        "char": "且",
+        "label": "además",
+        "label_en": "moreover",
+        "slot_id": "right",
+        "order_index": 1,
+        "bounds": {
+          "x": 0.4,
+          "y": 0,
+          "w": 0.6,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "思": {
+    "layout": "⿱",
+    "components": [
+      {
+        "id": "思_c0",
+        "char": "田",
+        "label": "arrozal",
+        "label_en": "rice field",
+        "slot_id": "top",
+        "order_index": 0,
+        "bounds": {
+          "x": 0.1,
+          "y": 0,
+          "w": 0.8,
+          "h": 0.55
+        }
+      },
+      {
+        "id": "思_c1",
+        "char": "心",
+        "label": "corazón",
+        "label_en": "heart",
+        "slot_id": "bottom",
+        "order_index": 1,
+        "bounds": {
+          "x": 0,
+          "y": 0.55,
+          "w": 1,
+          "h": 0.45
+        }
+      }
+    ]
+  },
+  "色": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "色_c0",
+        "char": "色",
+        "label": "色",
+        "label_en": "色",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "白": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "白_c0",
+        "char": "白",
+        "label": "blanco",
+        "label_en": "white",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "黒": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "黒_c0",
+        "char": "黒",
+        "label": "黒",
+        "label_en": "黒",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "赤": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "赤_c0",
+        "char": "赤",
+        "label": "赤",
+        "label_en": "赤",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "起": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "起_c0",
+        "char": "起",
+        "label": "起",
+        "label_en": "起",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "寝": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "寝_c0",
+        "char": "寝",
+        "label": "寝",
+        "label_en": "寝",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "遊": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "遊_c0",
+        "char": "遊",
+        "label": "遊",
+        "label_en": "遊",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "立": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "立_c0",
+        "char": "立",
+        "label": "estar de pie",
+        "label_en": "stand",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "座": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "座_c0",
+        "char": "座",
+        "label": "座",
+        "label_en": "座",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "使": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "使_c0",
+        "char": "使",
+        "label": "使",
+        "label_en": "使",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "始": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "始_c0",
+        "char": "始",
+        "label": "始",
+        "label_en": "始",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "終": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "終_c0",
+        "char": "終",
+        "label": "終",
+        "label_en": "終",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "貸": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "貸_c0",
+        "char": "貸",
+        "label": "貸",
+        "label_en": "貸",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "借": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "借_c0",
+        "char": "借",
+        "label": "借",
+        "label_en": "借",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "返": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "返_c0",
+        "char": "返",
+        "label": "返",
+        "label_en": "返",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "送": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "送_c0",
+        "char": "送",
+        "label": "送",
+        "label_en": "送",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "結": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "結_c0",
+        "char": "結",
+        "label": "結",
+        "label_en": "結",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "婚": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "婚_c0",
+        "char": "婚",
+        "label": "婚",
+        "label_en": "婚",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "離": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "離_c0",
+        "char": "離",
+        "label": "離",
+        "label_en": "離",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "席": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "席_c0",
+        "char": "席",
+        "label": "席",
+        "label_en": "席",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "欠": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "欠_c0",
+        "char": "欠",
+        "label": "falta",
+        "label_en": "lack",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "予": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "予_c0",
+        "char": "予",
+        "label": "予",
+        "label_en": "予",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "定": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "定_c0",
+        "char": "定",
+        "label": "定",
+        "label_en": "定",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "洋": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "洋_c0",
+        "char": "洋",
+        "label": "洋",
+        "label_en": "洋",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "式": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "式_c0",
+        "char": "式",
+        "label": "式",
+        "label_en": "式",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "和": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "和_c0",
+        "char": "和",
+        "label": "和",
+        "label_en": "和",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "活": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "活_c0",
+        "char": "活",
+        "label": "活",
+        "label_en": "活",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "春": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "春_c0",
+        "char": "春",
+        "label": "春",
+        "label_en": "春",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "夏": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "夏_c0",
+        "char": "夏",
+        "label": "夏",
+        "label_en": "夏",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "秋": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "秋_c0",
+        "char": "秋",
+        "label": "秋",
+        "label_en": "秋",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "冬": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "冬_c0",
+        "char": "冬",
+        "label": "冬",
+        "label_en": "冬",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "暑": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "暑_c0",
+        "char": "暑",
+        "label": "暑",
+        "label_en": "暑",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "熱": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "熱_c0",
+        "char": "熱",
+        "label": "熱",
+        "label_en": "熱",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "寒": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "寒_c0",
+        "char": "寒",
+        "label": "寒",
+        "label_en": "寒",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "冷": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "冷_c0",
+        "char": "冷",
+        "label": "冷",
+        "label_en": "冷",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "暖": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "暖_c0",
+        "char": "暖",
+        "label": "暖",
+        "label_en": "暖",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "温": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "温_c0",
+        "char": "温",
+        "label": "温",
+        "label_en": "温",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "涼": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "涼_c0",
+        "char": "涼",
+        "label": "涼",
+        "label_en": "涼",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "天": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "天_c0",
+        "char": "天",
+        "label": "天",
+        "label_en": "天",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "仕": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "仕_c0",
+        "char": "仕",
+        "label": "仕",
+        "label_en": "仕",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "事": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "事_c0",
+        "char": "事",
+        "label": "事",
+        "label_en": "事",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "者": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "者_c0",
+        "char": "者",
+        "label": "者",
+        "label_en": "者",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "運": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "運_c0",
+        "char": "運",
+        "label": "運",
+        "label_en": "運",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "転": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "転_c0",
+        "char": "転",
+        "label": "転",
+        "label_en": "転",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "選": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "選_c0",
+        "char": "選",
+        "label": "選",
+        "label_en": "選",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "記": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "記_c0",
+        "char": "記",
+        "label": "記",
+        "label_en": "記",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "議": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "議_c0",
+        "char": "議",
+        "label": "議",
+        "label_en": "議",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "員": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "員_c0",
+        "char": "員",
+        "label": "員",
+        "label_en": "員",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "商": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "商_c0",
+        "char": "商",
+        "label": "商",
+        "label_en": "商",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "業": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "業_c0",
+        "char": "業",
+        "label": "業",
+        "label_en": "業",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "農": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "農_c0",
+        "char": "農",
+        "label": "農",
+        "label_en": "農",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "良": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "良_c0",
+        "char": "良",
+        "label": "bueno",
+        "label_en": "good",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "悪": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "悪_c0",
+        "char": "悪",
+        "label": "悪",
+        "label_en": "悪",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "点": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "点_c0",
+        "char": "点",
+        "label": "点",
+        "label_en": "点",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "正": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "正_c0",
+        "char": "正",
+        "label": "正",
+        "label_en": "正",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "違": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "違_c0",
+        "char": "違",
+        "label": "違",
+        "label_en": "違",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "同": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "同_c0",
+        "char": "同",
+        "label": "同",
+        "label_en": "同",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "適": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "適_c0",
+        "char": "適",
+        "label": "適",
+        "label_en": "適",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "当": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "当_c0",
+        "char": "当",
+        "label": "当",
+        "label_en": "当",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "難": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "難_c0",
+        "char": "難",
+        "label": "難",
+        "label_en": "難",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "次": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "次_c0",
+        "char": "次",
+        "label": "次",
+        "label_en": "次",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "形": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "形_c0",
+        "char": "形",
+        "label": "形",
+        "label_en": "形",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "味": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "味_c0",
+        "char": "味",
+        "label": "味",
+        "label_en": "味",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "試": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "試_c0",
+        "char": "試",
+        "label": "試",
+        "label_en": "試",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "験": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "験_c0",
+        "char": "験",
+        "label": "験",
+        "label_en": "験",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "面": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "面_c0",
+        "char": "面",
+        "label": "面",
+        "label_en": "面",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "接": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "接_c0",
+        "char": "接",
+        "label": "接",
+        "label_en": "接",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "説": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "説_c0",
+        "char": "説",
+        "label": "説",
+        "label_en": "説",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "果": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "果_c0",
+        "char": "果",
+        "label": "果",
+        "label_en": "果",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "合": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "合_c0",
+        "char": "合",
+        "label": "encajar",
+        "label_en": "fit",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "格": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "格_c0",
+        "char": "格",
+        "label": "格",
+        "label_en": "格",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "受": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "受_c0",
+        "char": "受",
+        "label": "受",
+        "label_en": "受",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "落": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "落_c0",
+        "char": "落",
+        "label": "落",
+        "label_en": "落",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "残": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "残_c0",
+        "char": "残",
+        "label": "残",
+        "label_en": "残",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "念": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "念_c0",
+        "char": "念",
+        "label": "念",
+        "label_en": "念",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "指": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "指_c0",
+        "char": "指",
+        "label": "指",
+        "label_en": "指",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "折": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "折_c0",
+        "char": "折",
+        "label": "折",
+        "label_en": "折",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "払": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "払_c0",
+        "char": "払",
+        "label": "払",
+        "label_en": "払",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "投": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "投_c0",
+        "char": "投",
+        "label": "投",
+        "label_en": "投",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "打": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "打_c0",
+        "char": "打",
+        "label": "打",
+        "label_en": "打",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "深": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "深_c0",
+        "char": "深",
+        "label": "深",
+        "label_en": "深",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "洗": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "洗_c0",
+        "char": "洗",
+        "label": "洗",
+        "label_en": "洗",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "流": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "流_c0",
+        "char": "流",
+        "label": "流",
+        "label_en": "流",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "消": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "消_c0",
+        "char": "消",
+        "label": "消",
+        "label_en": "消",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "決": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "決_c0",
+        "char": "決",
+        "label": "決",
+        "label_en": "決",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "旅": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "旅_c0",
+        "char": "旅",
+        "label": "旅",
+        "label_en": "旅",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "約": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "約_c0",
+        "char": "約",
+        "label": "約",
+        "label_en": "約",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  },
+  "案": {
+    "layout": "single",
+    "components": [
+      {
+        "id": "案_c0",
+        "char": "案",
+        "label": "案",
+        "label_en": "案",
+        "slot_id": "center",
+        "order_index": 0,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    ]
+  }
+}

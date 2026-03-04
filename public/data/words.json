@@ -1,0 +1,1412 @@
+[
+  {
+    "id": "w1",
+    "kanji": [
+      "日",
+      "本"
+    ],
+    "reading": "にほん",
+    "meaning": "Japón",
+    "readingParts": [
+      "に",
+      "ほん"
+    ]
+  },
+  {
+    "id": "w2",
+    "kanji": [
+      "火",
+      "山"
+    ],
+    "reading": "かざん",
+    "meaning": "volcán",
+    "readingParts": [
+      "か",
+      "ざん"
+    ]
+  },
+  {
+    "id": "w3",
+    "kanji": [
+      "入",
+      "口"
+    ],
+    "reading": "いりぐち",
+    "meaning": "entrada",
+    "readingParts": [
+      "いり",
+      "ぐち"
+    ]
+  },
+  {
+    "id": "w4",
+    "kanji": [
+      "出",
+      "口"
+    ],
+    "reading": "でぐち",
+    "meaning": "salida",
+    "readingParts": [
+      "で",
+      "ぐち"
+    ]
+  },
+  {
+    "id": "w5",
+    "kanji": [
+      "人",
+      "口"
+    ],
+    "reading": "じんこう",
+    "meaning": "población",
+    "readingParts": [
+      "じん",
+      "こう"
+    ]
+  },
+  {
+    "id": "w6",
+    "kanji": [
+      "電",
+      "車"
+    ],
+    "reading": "でんしゃ",
+    "meaning": "tren eléctrico",
+    "readingParts": [
+      "でん",
+      "しゃ"
+    ]
+  },
+  {
+    "id": "w7",
+    "kanji": [
+      "水",
+      "田"
+    ],
+    "reading": "すいでん",
+    "meaning": "arrozal",
+    "readingParts": [
+      "すい",
+      "でん"
+    ]
+  },
+  {
+    "id": "w8",
+    "kanji": [
+      "土",
+      "木"
+    ],
+    "reading": "どぼく",
+    "meaning": "ingeniería civil",
+    "readingParts": [
+      "ど",
+      "ぼく"
+    ]
+  },
+  {
+    "id": "w9",
+    "kanji": [
+      "学",
+      "校"
+    ],
+    "reading": "がっこう",
+    "meaning": "escuela",
+    "readingParts": [
+      "がっ",
+      "こう"
+    ]
+  },
+  {
+    "id": "w10",
+    "kanji": [
+      "大",
+      "学"
+    ],
+    "reading": "だいがく",
+    "meaning": "universidad",
+    "readingParts": [
+      "だい",
+      "がく"
+    ]
+  },
+  {
+    "id": "w11",
+    "kanji": [
+      "先",
+      "生"
+    ],
+    "reading": "せんせい",
+    "meaning": "profesor",
+    "readingParts": [
+      "せん",
+      "せい"
+    ]
+  },
+  {
+    "id": "w12",
+    "kanji": [
+      "千",
+      "人"
+    ],
+    "reading": "せんにん",
+    "meaning": "mil personas",
+    "readingParts": [
+      "せん",
+      "にん"
+    ]
+  },
+  {
+    "id": "w13",
+    "kanji": [
+      "万",
+      "国"
+    ],
+    "reading": "ばんこく",
+    "meaning": "todos los países",
+    "readingParts": [
+      "ばん",
+      "こく"
+    ]
+  },
+  {
+    "id": "w14",
+    "kanji": [
+      "来",
+      "年"
+    ],
+    "reading": "らいねん",
+    "meaning": "el año que viene",
+    "readingParts": [
+      "らい",
+      "ねん"
+    ]
+  },
+  {
+    "id": "w15",
+    "kanji": [
+      "今",
+      "年"
+    ],
+    "reading": "ことし",
+    "meaning": "este año",
+    "readingParts": [
+      "こ",
+      "とし"
+    ]
+  },
+  {
+    "id": "w16",
+    "kanji": [
+      "本",
+      "日"
+    ],
+    "reading": "ほんじつ",
+    "meaning": "hoy",
+    "readingParts": [
+      "ほん",
+      "じつ"
+    ]
+  },
+  {
+    "id": "w17",
+    "kanji": [
+      "半",
+      "分"
+    ],
+    "reading": "はんぶん",
+    "meaning": "mitad",
+    "readingParts": [
+      "はん",
+      "ぶん"
+    ]
+  },
+  {
+    "id": "w18",
+    "kanji": [
+      "休",
+      "日"
+    ],
+    "reading": "きゅうじつ",
+    "meaning": "día libre",
+    "readingParts": [
+      "きゅう",
+      "じつ"
+    ]
+  },
+  {
+    "id": "w19",
+    "kanji": [
+      "体",
+      "力"
+    ],
+    "reading": "たいりょく",
+    "meaning": "fuerza física",
+    "readingParts": [
+      "たい",
+      "りょく"
+    ]
+  },
+  {
+    "id": "w20",
+    "kanji": [
+      "体",
+      "育"
+    ],
+    "reading": "たいいく",
+    "meaning": "educación física",
+    "readingParts": [
+      "たい",
+      "いく"
+    ]
+  },
+  {
+    "id": "w21",
+    "kanji": [
+      "時",
+      "間"
+    ],
+    "reading": "じかん",
+    "meaning": "tiempo",
+    "readingParts": [
+      "じ",
+      "かん"
+    ]
+  },
+  {
+    "id": "w22",
+    "kanji": [
+      "米",
+      "国"
+    ],
+    "reading": "べいこく",
+    "meaning": "Estados Unidos",
+    "readingParts": [
+      "べい",
+      "こく"
+    ]
+  },
+  {
+    "id": "w23",
+    "kanji": [
+      "石",
+      "油"
+    ],
+    "reading": "せきゆ",
+    "meaning": "petróleo",
+    "readingParts": [
+      "せき",
+      "ゆ"
+    ]
+  },
+  {
+    "id": "w24",
+    "kanji": [
+      "化",
+      "石"
+    ],
+    "reading": "かせき",
+    "meaning": "fósil",
+    "readingParts": [
+      "か",
+      "せき"
+    ]
+  },
+  {
+    "id": "w25",
+    "kanji": [
+      "文",
+      "学"
+    ],
+    "reading": "ぶんがく",
+    "meaning": "literatura",
+    "readingParts": [
+      "ぶん",
+      "がく"
+    ]
+  },
+  {
+    "id": "w26",
+    "kanji": [
+      "文",
+      "字"
+    ],
+    "reading": "もじ",
+    "meaning": "carácter",
+    "readingParts": [
+      "も",
+      "じ"
+    ]
+  },
+  {
+    "id": "w27",
+    "kanji": [
+      "生",
+      "物"
+    ],
+    "reading": "せいぶつ",
+    "meaning": "ser vivo",
+    "readingParts": [
+      "せい",
+      "ぶつ"
+    ]
+  },
+  {
+    "id": "w28",
+    "kanji": [
+      "白",
+      "鳥"
+    ],
+    "reading": "はくちょう",
+    "meaning": "cisne",
+    "readingParts": [
+      "はく",
+      "ちょう"
+    ]
+  },
+  {
+    "id": "w29",
+    "kanji": [
+      "金",
+      "魚"
+    ],
+    "reading": "きんぎょ",
+    "meaning": "pez dorado",
+    "readingParts": [
+      "きん",
+      "ぎょ"
+    ]
+  },
+  {
+    "id": "w30",
+    "kanji": [
+      "新",
+      "車"
+    ],
+    "reading": "しんしゃ",
+    "meaning": "coche nuevo",
+    "readingParts": [
+      "しん",
+      "しゃ"
+    ]
+  },
+  {
+    "id": "w31",
+    "kanji": [
+      "新",
+      "聞"
+    ],
+    "reading": "しんぶん",
+    "meaning": "periódico",
+    "readingParts": [
+      "しん",
+      "ぶん"
+    ]
+  },
+  {
+    "id": "w32",
+    "kanji": [
+      "新",
+      "年"
+    ],
+    "reading": "しんねん",
+    "meaning": "año nuevo",
+    "readingParts": [
+      "しん",
+      "ねん"
+    ]
+  },
+  {
+    "id": "w33",
+    "kanji": [
+      "長",
+      "男"
+    ],
+    "reading": "ちょうなん",
+    "meaning": "hijo mayor",
+    "readingParts": [
+      "ちょう",
+      "なん"
+    ]
+  },
+  {
+    "id": "w34",
+    "kanji": [
+      "高",
+      "校"
+    ],
+    "reading": "こうこう",
+    "meaning": "instituto",
+    "readingParts": [
+      "こう",
+      "こう"
+    ]
+  },
+  {
+    "id": "w35",
+    "kanji": [
+      "少",
+      "年"
+    ],
+    "reading": "しょうねん",
+    "meaning": "muchacho",
+    "readingParts": [
+      "しょう",
+      "ねん"
+    ]
+  },
+  {
+    "id": "w36",
+    "kanji": [
+      "少",
+      "女"
+    ],
+    "reading": "しょうじょ",
+    "meaning": "muchacha",
+    "readingParts": [
+      "しょう",
+      "じょ"
+    ]
+  },
+  {
+    "id": "w37",
+    "kanji": [
+      "食",
+      "事"
+    ],
+    "reading": "しょくじ",
+    "meaning": "comida",
+    "readingParts": [
+      "しょく",
+      "じ"
+    ]
+  },
+  {
+    "id": "w38",
+    "kanji": [
+      "夕",
+      "食"
+    ],
+    "reading": "ゆうしょく",
+    "meaning": "cena",
+    "readingParts": [
+      "ゆう",
+      "しょく"
+    ]
+  },
+  {
+    "id": "w39",
+    "kanji": [
+      "朝",
+      "食"
+    ],
+    "reading": "ちょうしょく",
+    "meaning": "desayuno",
+    "readingParts": [
+      "ちょう",
+      "しょく"
+    ]
+  },
+  {
+    "id": "w40",
+    "kanji": [
+      "読",
+      "書"
+    ],
+    "reading": "どくしょ",
+    "meaning": "lectura",
+    "readingParts": [
+      "どく",
+      "しょ"
+    ]
+  },
+  {
+    "id": "w41",
+    "kanji": [
+      "会",
+      "話"
+    ],
+    "reading": "かいわ",
+    "meaning": "conversación",
+    "readingParts": [
+      "かい",
+      "わ"
+    ]
+  },
+  {
+    "id": "w42",
+    "kanji": [
+      "電",
+      "話"
+    ],
+    "reading": "でんわ",
+    "meaning": "teléfono",
+    "readingParts": [
+      "でん",
+      "わ"
+    ]
+  },
+  {
+    "id": "w43",
+    "kanji": [
+      "教",
+      "室"
+    ],
+    "reading": "きょうしつ",
+    "meaning": "aula",
+    "readingParts": [
+      "きょう",
+      "しつ"
+    ]
+  },
+  {
+    "id": "w44",
+    "kanji": [
+      "教",
+      "育"
+    ],
+    "reading": "きょういく",
+    "meaning": "educación",
+    "readingParts": [
+      "きょう",
+      "いく"
+    ]
+  },
+  {
+    "id": "w45",
+    "kanji": [
+      "朝",
+      "日"
+    ],
+    "reading": "あさひ",
+    "meaning": "sol de la mañana",
+    "readingParts": [
+      "あさ",
+      "ひ"
+    ]
+  },
+  {
+    "id": "w46",
+    "kanji": [
+      "今",
+      "夜"
+    ],
+    "reading": "こんや",
+    "meaning": "esta noche",
+    "readingParts": [
+      "こん",
+      "や"
+    ]
+  },
+  {
+    "id": "w47",
+    "kanji": [
+      "毎",
+      "日"
+    ],
+    "reading": "まいにち",
+    "meaning": "cada día",
+    "readingParts": [
+      "まい",
+      "にち"
+    ]
+  },
+  {
+    "id": "w48",
+    "kanji": [
+      "午",
+      "前"
+    ],
+    "reading": "ごぜん",
+    "meaning": "mañana (AM)",
+    "readingParts": [
+      "ご",
+      "ぜん"
+    ]
+  },
+  {
+    "id": "w49",
+    "kanji": [
+      "午",
+      "後"
+    ],
+    "reading": "ごご",
+    "meaning": "tarde (PM)",
+    "readingParts": [
+      "ご",
+      "ご"
+    ]
+  },
+  {
+    "id": "w50",
+    "kanji": [
+      "作",
+      "文"
+    ],
+    "reading": "さくぶん",
+    "meaning": "redacción",
+    "readingParts": [
+      "さく",
+      "ぶん"
+    ]
+  },
+  {
+    "id": "w51",
+    "kanji": [
+      "水",
+      "泳"
+    ],
+    "reading": "すいえい",
+    "meaning": "natación",
+    "readingParts": [
+      "すい",
+      "えい"
+    ]
+  },
+  {
+    "id": "w52",
+    "kanji": [
+      "海",
+      "外"
+    ],
+    "reading": "かいがい",
+    "meaning": "extranjero",
+    "readingParts": [
+      "かい",
+      "がい"
+    ]
+  },
+  {
+    "id": "w53",
+    "kanji": [
+      "海",
+      "水"
+    ],
+    "reading": "かいすい",
+    "meaning": "agua de mar",
+    "readingParts": [
+      "かい",
+      "すい"
+    ]
+  },
+  {
+    "id": "w54",
+    "kanji": [
+      "時",
+      "計"
+    ],
+    "reading": "とけい",
+    "meaning": "reloj",
+    "readingParts": [
+      "と",
+      "けい"
+    ]
+  },
+  {
+    "id": "w55",
+    "kanji": [
+      "言",
+      "語"
+    ],
+    "reading": "げんご",
+    "meaning": "idioma",
+    "readingParts": [
+      "げん",
+      "ご"
+    ]
+  },
+  {
+    "id": "w56",
+    "kanji": [
+      "日",
+      "本",
+      "語"
+    ],
+    "reading": "にほんご",
+    "meaning": "japonés",
+    "readingParts": [
+      "に",
+      "ほん",
+      "ご"
+    ]
+  },
+  {
+    "id": "w57",
+    "kanji": [
+      "英",
+      "国"
+    ],
+    "reading": "えいこく",
+    "meaning": "Reino Unido",
+    "readingParts": [
+      "えい",
+      "こく"
+    ]
+  },
+  {
+    "id": "w58",
+    "kanji": [
+      "会",
+      "社"
+    ],
+    "reading": "かいしゃ",
+    "meaning": "empresa",
+    "readingParts": [
+      "かい",
+      "しゃ"
+    ]
+  },
+  {
+    "id": "w59",
+    "kanji": [
+      "雪",
+      "国"
+    ],
+    "reading": "ゆきぐに",
+    "meaning": "país de nieve",
+    "readingParts": [
+      "ゆき",
+      "ぐに"
+    ]
+  },
+  {
+    "id": "w60",
+    "kanji": [
+      "電",
+      "気"
+    ],
+    "reading": "でんき",
+    "meaning": "electricidad",
+    "readingParts": [
+      "でん",
+      "き"
+    ]
+  },
+  {
+    "id": "w61",
+    "kanji": [
+      "病",
+      "気"
+    ],
+    "reading": "びょうき",
+    "meaning": "enfermedad",
+    "readingParts": [
+      "びょう",
+      "き"
+    ]
+  },
+  {
+    "id": "w62",
+    "kanji": [
+      "病",
+      "院"
+    ],
+    "reading": "びょういん",
+    "meaning": "hospital",
+    "readingParts": [
+      "びょう",
+      "いん"
+    ]
+  },
+  {
+    "id": "w63",
+    "kanji": [
+      "近",
+      "所"
+    ],
+    "reading": "きんじょ",
+    "meaning": "vecindario",
+    "readingParts": [
+      "きん",
+      "じょ"
+    ]
+  },
+  {
+    "id": "w64",
+    "kanji": [
+      "歩",
+      "道"
+    ],
+    "reading": "ほどう",
+    "meaning": "acera",
+    "readingParts": [
+      "ほ",
+      "どう"
+    ]
+  },
+  {
+    "id": "w65",
+    "kanji": [
+      "水",
+      "道"
+    ],
+    "reading": "すいどう",
+    "meaning": "cañería",
+    "readingParts": [
+      "すい",
+      "どう"
+    ]
+  },
+  {
+    "id": "w66",
+    "kanji": [
+      "青",
+      "年"
+    ],
+    "reading": "せいねん",
+    "meaning": "joven",
+    "readingParts": [
+      "せい",
+      "ねん"
+    ]
+  },
+  {
+    "id": "w67",
+    "kanji": [
+      "晴",
+      "天"
+    ],
+    "reading": "せいてん",
+    "meaning": "cielo despejado",
+    "readingParts": [
+      "せい",
+      "てん"
+    ]
+  },
+  {
+    "id": "w68",
+    "kanji": [
+      "国",
+      "歌"
+    ],
+    "reading": "こっか",
+    "meaning": "himno nacional",
+    "readingParts": [
+      "こっ",
+      "か"
+    ]
+  },
+  {
+    "id": "w69",
+    "kanji": [
+      "友",
+      "人"
+    ],
+    "reading": "ゆうじん",
+    "meaning": "amigo",
+    "readingParts": [
+      "ゆう",
+      "じん"
+    ]
+  },
+  {
+    "id": "w70",
+    "kanji": [
+      "父",
+      "母"
+    ],
+    "reading": "ふぼ",
+    "meaning": "padres",
+    "readingParts": [
+      "ふ",
+      "ぼ"
+    ]
+  },
+  {
+    "id": "w71",
+    "kanji": [
+      "兄",
+      "弟"
+    ],
+    "reading": "きょうだい",
+    "meaning": "hermanos",
+    "readingParts": [
+      "きょう",
+      "だい"
+    ]
+  },
+  {
+    "id": "w72",
+    "kanji": [
+      "元",
+      "気"
+    ],
+    "reading": "げんき",
+    "meaning": "energía / salud",
+    "readingParts": [
+      "げん",
+      "き"
+    ]
+  },
+  {
+    "id": "w73",
+    "kanji": [
+      "天",
+      "気"
+    ],
+    "reading": "てんき",
+    "meaning": "clima",
+    "readingParts": [
+      "てん",
+      "き"
+    ]
+  },
+  {
+    "id": "w74",
+    "kanji": [
+      "有",
+      "名"
+    ],
+    "reading": "ゆうめい",
+    "meaning": "famoso",
+    "readingParts": [
+      "ゆう",
+      "めい"
+    ]
+  },
+  {
+    "id": "w75",
+    "kanji": [
+      "親",
+      "切"
+    ],
+    "reading": "しんせつ",
+    "meaning": "amable",
+    "readingParts": [
+      "しん",
+      "せつ"
+    ]
+  },
+  {
+    "id": "w76",
+    "kanji": [
+      "便",
+      "利"
+    ],
+    "reading": "べんり",
+    "meaning": "conveniente",
+    "readingParts": [
+      "べん",
+      "り"
+    ]
+  },
+  {
+    "id": "w77",
+    "kanji": [
+      "外",
+      "出"
+    ],
+    "reading": "がいしゅつ",
+    "meaning": "salir",
+    "readingParts": [
+      "がい",
+      "しゅつ"
+    ]
+  },
+  {
+    "id": "w78",
+    "kanji": [
+      "入",
+      "学"
+    ],
+    "reading": "にゅうがく",
+    "meaning": "ingreso escolar",
+    "readingParts": [
+      "にゅう",
+      "がく"
+    ]
+  },
+  {
+    "id": "w79",
+    "kanji": [
+      "動",
+      "物"
+    ],
+    "reading": "どうぶつ",
+    "meaning": "animal",
+    "readingParts": [
+      "どう",
+      "ぶつ"
+    ]
+  },
+  {
+    "id": "w80",
+    "kanji": [
+      "東",
+      "京"
+    ],
+    "reading": "とうきょう",
+    "meaning": "Tokio",
+    "readingParts": [
+      "とう",
+      "きょう"
+    ]
+  },
+  {
+    "id": "w81",
+    "kanji": [
+      "外",
+      "国"
+    ],
+    "reading": "がいこく",
+    "meaning": "extranjero",
+    "readingParts": [
+      "がい",
+      "こく"
+    ]
+  },
+  {
+    "id": "w82",
+    "kanji": [
+      "部",
+      "屋"
+    ],
+    "reading": "へや",
+    "meaning": "habitación",
+    "readingParts": [
+      "へ",
+      "や"
+    ]
+  },
+  {
+    "id": "w83",
+    "kanji": [
+      "地",
+      "下",
+      "鉄"
+    ],
+    "reading": "ちかてつ",
+    "meaning": "metro",
+    "readingParts": [
+      "ち",
+      "か",
+      "てつ"
+    ]
+  },
+  {
+    "id": "w84",
+    "kanji": [
+      "図",
+      "書",
+      "館"
+    ],
+    "reading": "としょかん",
+    "meaning": "biblioteca",
+    "readingParts": [
+      "と",
+      "しょ",
+      "かん"
+    ]
+  },
+  {
+    "id": "w85",
+    "kanji": [
+      "公",
+      "園"
+    ],
+    "reading": "こうえん",
+    "meaning": "parque",
+    "readingParts": [
+      "こう",
+      "えん"
+    ]
+  },
+  {
+    "id": "w86",
+    "kanji": [
+      "番",
+      "号"
+    ],
+    "reading": "ばんごう",
+    "meaning": "número",
+    "readingParts": [
+      "ばん",
+      "ごう"
+    ]
+  },
+  {
+    "id": "w87",
+    "kanji": [
+      "練",
+      "習"
+    ],
+    "reading": "れんしゅう",
+    "meaning": "práctica",
+    "readingParts": [
+      "れん",
+      "しゅう"
+    ]
+  },
+  {
+    "id": "w88",
+    "kanji": [
+      "勉",
+      "強"
+    ],
+    "reading": "べんきょう",
+    "meaning": "estudio",
+    "readingParts": [
+      "べん",
+      "きょう"
+    ]
+  },
+  {
+    "id": "w89",
+    "kanji": [
+      "研",
+      "究"
+    ],
+    "reading": "けんきゅう",
+    "meaning": "investigación",
+    "readingParts": [
+      "けん",
+      "きゅう"
+    ]
+  },
+  {
+    "id": "w90",
+    "kanji": [
+      "質",
+      "問"
+    ],
+    "reading": "しつもん",
+    "meaning": "pregunta",
+    "readingParts": [
+      "しつ",
+      "もん"
+    ]
+  },
+  {
+    "id": "w91",
+    "kanji": [
+      "問",
+      "題"
+    ],
+    "reading": "もんだい",
+    "meaning": "problema",
+    "readingParts": [
+      "もん",
+      "だい"
+    ]
+  },
+  {
+    "id": "w92",
+    "kanji": [
+      "宿",
+      "題"
+    ],
+    "reading": "しゅくだい",
+    "meaning": "deberes",
+    "readingParts": [
+      "しゅく",
+      "だい"
+    ]
+  },
+  {
+    "id": "w93",
+    "kanji": [
+      "経",
+      "済"
+    ],
+    "reading": "けいざい",
+    "meaning": "economía",
+    "readingParts": [
+      "けい",
+      "ざい"
+    ]
+  },
+  {
+    "id": "w94",
+    "kanji": [
+      "歴",
+      "史"
+    ],
+    "reading": "れきし",
+    "meaning": "historia",
+    "readingParts": [
+      "れき",
+      "し"
+    ]
+  },
+  {
+    "id": "w95",
+    "kanji": [
+      "文",
+      "化"
+    ],
+    "reading": "ぶんか",
+    "meaning": "cultura",
+    "readingParts": [
+      "ぶん",
+      "か"
+    ]
+  },
+  {
+    "id": "w96",
+    "kanji": [
+      "科",
+      "学"
+    ],
+    "reading": "かがく",
+    "meaning": "ciencia",
+    "readingParts": [
+      "か",
+      "がく"
+    ]
+  },
+  {
+    "id": "w97",
+    "kanji": [
+      "化",
+      "学"
+    ],
+    "reading": "かがく",
+    "meaning": "química",
+    "readingParts": [
+      "か",
+      "がく"
+    ]
+  },
+  {
+    "id": "w98",
+    "kanji": [
+      "数",
+      "学"
+    ],
+    "reading": "すうがく",
+    "meaning": "matemáticas",
+    "readingParts": [
+      "すう",
+      "がく"
+    ]
+  },
+  {
+    "id": "w99",
+    "kanji": [
+      "医",
+      "学"
+    ],
+    "reading": "いがく",
+    "meaning": "medicina",
+    "readingParts": [
+      "い",
+      "がく"
+    ]
+  },
+  {
+    "id": "w100",
+    "kanji": [
+      "物",
+      "理"
+    ],
+    "reading": "ぶつり",
+    "meaning": "física",
+    "readingParts": [
+      "ぶつ",
+      "り"
+    ]
+  },
+  {
+    "id": "w101",
+    "kanji": [
+      "地",
+      "理"
+    ],
+    "reading": "ちり",
+    "meaning": "geografía",
+    "readingParts": [
+      "ち",
+      "り"
+    ]
+  },
+  {
+    "id": "w102",
+    "kanji": [
+      "映",
+      "画"
+    ],
+    "reading": "えいが",
+    "meaning": "película",
+    "readingParts": [
+      "えい",
+      "が"
+    ]
+  },
+  {
+    "id": "w103",
+    "kanji": [
+      "写",
+      "真"
+    ],
+    "reading": "しゃしん",
+    "meaning": "fotografía",
+    "readingParts": [
+      "しゃ",
+      "しん"
+    ]
+  },
+  {
+    "id": "w104",
+    "kanji": [
+      "料",
+      "理"
+    ],
+    "reading": "りょうり",
+    "meaning": "cocina",
+    "readingParts": [
+      "りょう",
+      "り"
+    ]
+  },
+  {
+    "id": "w105",
+    "kanji": [
+      "番",
+      "組"
+    ],
+    "reading": "ばんぐみ",
+    "meaning": "programa (TV)",
+    "readingParts": [
+      "ばん",
+      "ぐみ"
+    ]
+  },
+  {
+    "id": "w106",
+    "kanji": [
+      "社",
+      "会"
+    ],
+    "reading": "しゃかい",
+    "meaning": "sociedad",
+    "readingParts": [
+      "しゃ",
+      "かい"
+    ]
+  },
+  {
+    "id": "w107",
+    "kanji": [
+      "主",
+      "人"
+    ],
+    "reading": "しゅじん",
+    "meaning": "esposo / dueño",
+    "readingParts": [
+      "しゅ",
+      "じん"
+    ]
+  },
+  {
+    "id": "w108",
+    "kanji": [
+      "島",
+      "国"
+    ],
+    "reading": "しまぐに",
+    "meaning": "país insular",
+    "readingParts": [
+      "しま",
+      "ぐに"
+    ]
+  }
+]

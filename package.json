@@ -5,8 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run build:data && vite build",
-    "build:data": "tsx scripts/parse-kanjis.ts",
+    "build": "vite build",
     "validate:data": "tsx scripts/validate-data.ts",
     "preview": "vite preview",
     "lint": "eslint src/**/*.ts",

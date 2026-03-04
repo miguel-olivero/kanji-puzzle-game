@@ -6,10 +6,10 @@ dist/
 build/
 
 # ─── Datos fuente (PDFs del libro, TXTs) ────────
-data/
+/data/
 
-# ─── JSON generados por parse-kanjis.ts ──────────
-public/data/
+# ─── Script de procesado local (no publicar) ─────
+scripts/parse-kanjis.ts
 
 # ─── Artefactos del script ───────────────────────
 missing_kanji.txt
